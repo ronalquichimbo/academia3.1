@@ -5,8 +5,8 @@ alter user academia set search_path to avistamiento, public;
 
 CREATE TABLE uicn(
 	id_uicn integer SERIAL NOT NULL;
-	estado varying(50);
-	descripcion varying(100);
+	estado varying(5);
+	descripcion varying(20);
 	CONSTRAINT estado_uicn_pkey PRIMARY KEY (id_uicn);
 );
 
@@ -24,7 +24,8 @@ CREATE TABLE especie(
 	nombre varying(30);
 	sinonimo varying(30);
 	uicn integer;
-	morfometria boolean DEFAULT 0;
+	endemismo varying(10);
+	migracion varying(10);
 	CONSTRAINT codigo_pkey PRIMARY KEY(codigo_especie);
 	CONSTRAINT estado_uicn_fkey FOREIGN KEY (uicn)
 	      REFERENCES uicn (id_uicn);
@@ -76,7 +77,8 @@ CREATE TABLE avistamiento(
 	ecologia boolean DEFAULT 0;	
 	autor integer;
 	tipo_recurso varying(30);
-	bibliografia varying(1590);
+	bibliografia varying(150);
+	morfometria boolean DEFAULT 0;
 	CONSTRAINT avistm_pkey PRIMARY KEY		(id_avistamiento);
 	CONSTRAINT ubicacion_av_fkey FOREIGN KEY 		(ubicacion_av) REFERENCES ubicacion (id_ubicacion);
 	CONSTRAINT especie_av_fkey FOREIGN KEY 			(especie) REFERENCES ubicacion 			(codigo_especie);
