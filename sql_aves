@@ -1,0 +1,87 @@
+create database aves owner academia;
+create schema avistamiento;
+alter user academia set search_path to avistamiento, public;
+
+
+CREATE TABLE uicn(
+	id_uicn integer SERIAL NOT NULL;
+	estado varying(50);
+	descripcion varying(100);
+	CONSTRAINT estado_uicn_pkey PRIMARY KEY (id_uicn);
+);
+
+CREATE TABLE familia(
+	id_familia integer SERIAL NOT NULL;
+	nombre_fam varying(50);
+	dependencia_fam integer;
+	CONSTRAINT familia_pkey PRIMARY KEY(id_familia);
+);
+
+CREATE TABLE especie(
+	codigo_especie varying(15) NOT NULL;
+	familia integer;
+	especie varying(30);
+	nombre varying(30);
+	sinonimo varying(30);
+	uicn integer;
+	morfometria boolean DEFAULT 0;
+	CONSTRAINT codigo_pkey PRIMARY KEY(codigo_especie);
+	CONSTRAINT estado_uicn_fkey FOREIGN KEY (uicn)
+	      REFERENCES uicn (id_uicn);
+	CONSTRAINT familia_fkey FOREIGN KEY (familia)
+	      REFERENCES familia (id_familia);
+);
+
+
+CREATE TABLE foto(
+	id_foto integer SERIAL NOT NULL;
+	especie varying(30);
+	url varying(100);
+	CONSTRAINT foto_pkey PRIMARY KEY(id_foto);
+	CONSTRAINT especie_fkey FOREIGN KEY (especie)
+	      REFERENCES especie (codigo_especie);
+);
+
+CREATE TABLE ubicacion(
+	id_ubicacion integer SERIAL NOT NULL;
+	nombre_ub varying(50);
+	dependencia_ub integer;
+	CONSTRAINT ubicacion_pkey PRIMARY KEY(id_familia);
+);
+
+CREATE TABLE data_ubicacion(
+	id_data integer SERIAL NOT NULL;
+	ubicacion_dt integer;
+	altitud integer;
+	latitud integer;
+	longitud integer;
+	min_altitud integer;
+	max_altitud integer;
+	CONSTRAINT data_ub_pkey PRIMARY KEY(id_data);
+	CONSTRAINT ubicacion_fkey FOREIGN KEY (ubicacion_dt)
+	      REFERENCES ubicacion (id_ubicacion) MATCH 		SIMPLE ON UPDATE NO ACTION ON DELETE 			CASCADE;
+);
+
+
+CREATE TABLE avistamiento(
+	id_avistamiento integer SERIAL NOT NULL;
+	especie varying(30);
+	ubicacion_av integer;
+	fecha integer;
+	anio_recoleccion integer;
+	anio_publicacion integer;
+	ecosistema varying(50);
+	comportamiento boolean DEFAULT 0;
+	llamado boolean DEFAULT 0;
+	ecologia boolean DEFAULT 0;	
+	autor integer;
+	tipo_recurso varying(30);
+	bibliografia varying(1590);
+	CONSTRAINT avistm_pkey PRIMARY KEY		(id_avistamiento);
+	CONSTRAINT ubicacion_av_fkey FOREIGN KEY 		(ubicacion_av) REFERENCES ubicacion (id_ubicacion);
+	CONSTRAINT especie_av_fkey FOREIGN KEY 			(especie) REFERENCES ubicacion 			(codigo_especie);
+	CONSTRAINT autor_av_fkey FOREIGN KEY 		(autor) REFERENCES ubicacion (id_autor);
+);
+
+
+
