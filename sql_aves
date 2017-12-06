@@ -65,7 +65,6 @@ CREATE TABLE avistamiento(
 	ecologia boolean DEFAULT 0,	
 	id_autor integer,
 	tipo_recurso character varying(30),
-	bibliografia character varying(150),
 	morfometria boolean DEFAULT 0,
 	localidad text,
 	altitud integer,
@@ -80,8 +79,16 @@ CREATE TABLE avistamiento(
 	CONSTRAINT autor_av_fkey FOREIGN KEY (autor) REFERENCES ubicacion (id_autor)
 );
 
+CREATE TABLE autor(
+	id_autor SERIAL NOT NULL,
+	nombre_autor text,
+	bibliografia text,
+	CONSTRAINT autor_pkey PRIMARY KEY(id_autor)
+);
 
 \COPY uicn(estado,descripcion) FROM '/home/mjmora5/academia3.1/datos/uicn.csv' DELIMITER ';' CSV HEADER;
 
 \COPY familia(nombre_fam,dependencia_fam) FROM '/home/mjmora5/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
+
+\COPY autor(nombre_autor,bibliografia) FROM '/home/mjmora5/academia3.1/datos/autor.csv' DELIMITER ';' CSV HEADER;
 
