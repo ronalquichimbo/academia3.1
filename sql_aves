@@ -18,7 +18,8 @@ CREATE TABLE familia(
 );
 
 CREATE TABLE especie(
-	codigo_especie varying(15) NOT NULL,
+	id_especie SERIAL NOT NULL,
+	codigo_especie varying(15),
 	familia integer,
 	especie character varying(30),
 	nombre character varying(30),
@@ -26,21 +27,22 @@ CREATE TABLE especie(
 	uicn integer,
 	endemismo varying(10),
 	migracion varying(10),
-	CONSTRAINT codigo_pkey PRIMARY KEY(codigo_especie),
+	CONSTRAINT codigo_pkey PRIMARY KEY(id_especie),
 	CONSTRAINT estado_uicn_fkey FOREIGN KEY (uicn)
 	      REFERENCES uicn (id_uicn),
 	CONSTRAINT familia_fkey FOREIGN KEY (familia)
-	      REFERENCES familia (id_familia)
+	      REFERENCES familia (id_familia),
+	CONSTRAINT codigo_uniq UNIQUE(codigo_especie)
 );
 
 
 CREATE TABLE foto(
 	id_foto SERIAL NOT NULL,
-	especie character varying(30),
-	url character varying(100),
+	especie integer,
+	url character text,
 	CONSTRAINT foto_pkey PRIMARY KEY(id_foto),
 	CONSTRAINT especie_fkey FOREIGN KEY (especie)
-	      REFERENCES especie (codigo_especie)
+	      REFERENCES especie (id_especie)
 );
 
 CREATE TABLE ubicacion(
@@ -50,42 +52,36 @@ CREATE TABLE ubicacion(
 	CONSTRAINT ubicacion_pkey PRIMARY KEY(id_familia)
 );
 
-CREATE TABLE data_ubicacion(
-	id_data SERIAL NOT NULL,
-	ubicacion_dt integer,
-	altitud integer,
-	latitud integer,
-	longitud integer,
-	min_altitud integer,
-	max_altitud integer,
-	CONSTRAINT data_ub_pkey PRIMARY KEY(id_data),
-	CONSTRAINT ubicacion_fkey FOREIGN KEY (ubicacion_dt)
-	      REFERENCES ubicacion (id_ubicacion) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE CASCADE
-);
-
 
 CREATE TABLE avistamiento(
 	id_avistamiento SERIAL NOT NULL,
-	especie character varying(30),
-	ubicacion_av integer,
-	fecha integer,
-	anio_recoleccion integer,
-	anio_publicacion integer,
+	id_especie integer,
+	id_ubicacion integer,
+	anio_recoleccion text,
+	anio_publicacion text,
 	ecosistema character varying(50),
 	comportamiento boolean DEFAULT 0,
 	llamado boolean DEFAULT 0,
 	ecologia boolean DEFAULT 0,	
-	autor integer,
+	id_autor integer,
 	tipo_recurso character varying(30),
 	bibliografia character varying(150),
 	morfometria boolean DEFAULT 0,
+	localidad text,
+	altitud integer,
+	latitud float(12),
+	longitud float(12),
+	min_altitud integer,
+	max_altitud integer,
+	sitio arying(50),
 	CONSTRAINT avistm_pkey PRIMARY KEY (id_avistamiento),
 	CONSTRAINT ubicacion_av_fkey FOREIGN KEY (ubicacion_av) REFERENCES ubicacion (id_ubicacion),
-	CONSTRAINT especie_av_fkey FOREIGN KEY 	(especie) REFERENCES ubicacion (codigo_especie),
+	CONSTRAINT especie_av_fkey FOREIGN KEY 	(especie) REFERENCES ubicacion (id_especie),
 	CONSTRAINT autor_av_fkey FOREIGN KEY (autor) REFERENCES ubicacion (id_autor)
 );
 
 
 \COPY uicn(estado,descripcion) FROM '/home/mjmora5/academia3.1/datos/uicn.csv' DELIMITER ';' CSV HEADER;
 
-\COPY familia(id_familia,nombre_fam,dependencia_fam) FROM '/home/mjmora5/academia3.1/datos/familia.csv' DELIMITER ';' CSV HEADER;
+\COPY familia(nombre_fam,dependencia_fam) FROM '/home/mjmora5/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
+
