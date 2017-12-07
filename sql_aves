@@ -24,7 +24,7 @@ CREATE TABLE especie(
 	especie text,
 	nombre text,
 	sinonimo text,
-	uicn integer,
+	uicn integer DEFAULT 7,
 	endemismo character varying(20),
 	migracion character varying(20),
 	CONSTRAINT codigo_pkey PRIMARY KEY(id_especie),
