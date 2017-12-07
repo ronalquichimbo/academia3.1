@@ -19,37 +19,35 @@ CREATE TABLE familia(
 
 CREATE TABLE especie(
 	id_especie SERIAL NOT NULL,
-	codigo_especie varying(15),
+	codigo_especie  character varying(15),
 	familia integer,
 	especie character varying(30),
 	nombre character varying(30),
 	sinonimo character  varying(30),
 	uicn integer,
-	endemismo varying(10),
-	migracion varying(10),
+	endemismo character varying(10),
+	migracion character varying(10),
 	CONSTRAINT codigo_pkey PRIMARY KEY(id_especie),
 	CONSTRAINT estado_uicn_fkey FOREIGN KEY (uicn)
 	      REFERENCES uicn (id_uicn),
 	CONSTRAINT familia_fkey FOREIGN KEY (familia)
 	      REFERENCES familia (id_familia),
-	CONSTRAINT codigo_uniq UNIQUE(codigo_especie)
-);
+	CONSTRAINT codigo_uniq UNIQUE(codigo_especie));
 
 
 CREATE TABLE foto(
 	id_foto SERIAL NOT NULL,
 	especie integer,
-	url character text,
+	url text,
 	CONSTRAINT foto_pkey PRIMARY KEY(id_foto),
 	CONSTRAINT especie_fkey FOREIGN KEY (especie)
-	      REFERENCES especie (id_especie)
-);
+	      REFERENCES especie (id_especie));
 
 CREATE TABLE ubicacion(
 	id_ubicacion SERIAL NOT NULL,
 	nombre_ub character varying(50),
 	dependencia_ub integer,
-	CONSTRAINT ubicacion_pkey PRIMARY KEY(id_familia)
+	CONSTRAINT ubicacion_pkey PRIMARY KEY(id_ubicacion)
 );
 
 
@@ -60,23 +58,23 @@ CREATE TABLE avistamiento(
 	anio_recoleccion text,
 	anio_publicacion text,
 	ecosistema character varying(50),
-	comportamiento boolean DEFAULT 0,
-	llamado boolean DEFAULT 0,
-	ecologia boolean DEFAULT 0,	
+	comportamiento boolean ,
+	llamado boolean ,
+	ecologia boolean ,	
 	id_autor integer,
 	tipo_recurso character varying(30),
-	morfometria boolean DEFAULT 0,
+	morfometria boolean ,
 	localidad text,
 	altitud integer,
 	latitud float(12),
 	longitud float(12),
 	min_altitud integer,
 	max_altitud integer,
-	sitio arying(50),
+	sitio character  varying(50),
 	CONSTRAINT avistm_pkey PRIMARY KEY (id_avistamiento),
-	CONSTRAINT ubicacion_av_fkey FOREIGN KEY (ubicacion_av) REFERENCES ubicacion (id_ubicacion),
-	CONSTRAINT especie_av_fkey FOREIGN KEY 	(especie) REFERENCES ubicacion (id_especie),
-	CONSTRAINT autor_av_fkey FOREIGN KEY (autor) REFERENCES ubicacion (id_autor)
+	CONSTRAINT ubicacion_av_fkey FOREIGN KEY (id_ubicacion) REFERENCES ubicacion (id_ubicacion),
+	CONSTRAINT especie_av_fkey FOREIGN KEY 	(id_especie) REFERENCES especie (id_especie),
+	CONSTRAINT autor_av_fkey FOREIGN KEY (id_autor) REFERENCES autor (id_autor)
 );
 
 CREATE TABLE autor(
