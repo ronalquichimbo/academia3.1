@@ -70,14 +70,17 @@ df.insert(7, 'migracion',cus7)
 
 
 dfc= colum(df)
+df['uicn'] = df['uicn'].replace(np.nan, 0)
+
 for value in range(len(dfc)):
-## es para recorrer las filas que tiene
-    df[dfc[value]] = df[dfc[value]].replace(np.nan, 0)
+
+ #es para recorrer las filas que tiene
+    df[dfc[value]] = df[dfc[value]].replace(np.nan, 444)
     for value1 in range(len(df)):
 
-        if   df.loc[value1,dfc[value]] == '-' or df.loc[value1,dfc[value]] == 0:
+        if   df.loc[value1,dfc[value]] == '-' or df.loc[value1,dfc[value]] == 444:
             print "original",df.loc[value1,dfc[value]]
             df.loc[value1,dfc[value]]='null'
             print "modificado",df.loc[value1,dfc[value]]
 
-df.to_csv('Especies.csv',sep=',')
+df.to_csv('Especies2.csv',sep=',')

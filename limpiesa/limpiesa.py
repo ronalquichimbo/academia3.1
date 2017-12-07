@@ -1,7 +1,7 @@
 import pandas  as pd
 import numpy as np
 
-datos= pd.read_csv("db-aves-lista.csv", delimiter= '#',header=0)
+datos= pd.read_csv("datos.csv", delimiter= '#',header=0)
 #order= pd.read_csv("db-aves-list.csv",header=0,usecols=['ID'])
 #ver la informacion de cada atributo
 #print  "---------------Objetos que tiene el csv---------------\n",(datos.info())
@@ -55,6 +55,6 @@ for value in range(columna):
 
 print df.loc[6718,'Year of collection']
 print len(df)
-df.to_csv('Datoscompletos.csv',sep='#')
+df.to_csv('Datoscompletos1.csv',sep='#')
     #print "value", values
     #print "valu",list(values)
