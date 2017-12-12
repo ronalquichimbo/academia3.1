@@ -1,8 +1,8 @@
 CodigoEspecie,Familia,especie,nombre,sinonimo,uicn,endemismo,migracion
-UTPL_A0001,30,Aburria aburri,Wattled Guan,null,0,null,null
+UTPL_A0001,30,Aburria aburri,Wattled Guan,null,7,null,null
 UTPL_A0002,37,Accipiter bicolor,Bicolored Hawk,null,1,null,null
 UTPL_A0004,37,Accipiter superciliosus,Tiny Hawk,null,1,null,null
-UTPL_A0005,37,Accipiter ventralis,Plain-breasted Hawk,null,0,null,null
+UTPL_A0005,37,Accipiter ventralis,Plain-breasted Hawk,null,7,null,null
 UTPL_A0006,40,Actitis macularius,Spotted Sandpiper,null,1,null,MB
 UTPL_A0007,48,Adelomyia melanogenys,Speckled Hummingbird,null,1,null,null
 UTPL_A0008,47,Aeronautes montivagus,White-tipped Swift,null,1,null,null
@@ -10,15 +10,15 @@ UTPL_A0009,48,Aglaeactis cupripennis,Shining Sunbeam,null,1,null,null
 UTPL_A0010,48,Aglaiocercus coelestis,Violet-tailed Sylph,null,1,null,null
 UTPL_A0011,48,Aglaiocercus kingi,Long-tailed Sylph,null,1,null,null
 UTPL_A0012,62,Agriornis albicauda, White-tailed shrike-tyrant,null,2,null,null
-UTPL_A0013,38,Amaurolimnas concolor,Uniform Crake,null,0,null,null
-UTPL_A0014,76,Amaurospiza concolor,Blue Seedeater,null,0,null,null
-UTPL_A0015,48,Amazilia amabilis,Blue-chested Hummingbird,null,0,null,null
+UTPL_A0013,38,Amaurolimnas concolor,Uniform Crake,null,7,null,null
+UTPL_A0014,76,Amaurospiza concolor,Blue Seedeater,null,7,null,null
+UTPL_A0015,48,Amazilia amabilis,Blue-chested Hummingbird,null,7,null,null
 UTPL_A0016,48,Amazilia amazilia,Amazilia Hummingbird,null,1,null,null
 UTPL_A0017,48,Amazilia franciae,Andean Emerald,null,1,null,null
-UTPL_A0018,48,Amazilia rosenbergi,Purple-chested Hummingbird,null,0,B-Ch,null
+UTPL_A0018,48,Amazilia rosenbergi,Purple-chested Hummingbird,null,7,B-Ch,null
 UTPL_A0019,48,Amazilia tzacatl,Rufous-tailed Hummingbird,null,1,null,null
-UTPL_A0020,56,Amazona autumnalis,Red-lored Parrot,null,0,null,null
-UTPL_A0021,56,Amazona farinosa,Mealy Amazon,null,0,null,null
+UTPL_A0020,56,Amazona autumnalis,Red-lored Parrot,null,7,null,null
+UTPL_A0021,56,Amazona farinosa,Mealy Amazon,null,7,null,null
 UTPL_A0022,78,Amblycercus holosericeus,Yellow-billed Cacique,null,1,null,null
 UTPL_A0024,63,Ampelioides tschudii,Scaled Fruiteater,null,1,null,null
 UTPL_A0025,63,Ampelion rubrocristatus,Red-crested Cotinga,null,1,null,null
@@ -26,46 +26,46 @@ UTPL_A0027,61,Anabacerthia variegaticeps,Scaly-throated Foliage-gleaner,null,1,n
 UTPL_A0028,62,Anairetes nigrocristatus,Black-crested Tit-Tyrant,null,1,S-SO,null
 UTPL_A0029,62,Anairetes parulus,Tufted Tit-Tyrant,null,1,null,null
 UTPL_A0031,82,Anas bahamensis,White-cheeked Pintail,null,1,null,null
-UTPL_A0032,82,Anas cyanoptera,Cinnamon Teal,null,0,null,MB-D
+UTPL_A0032,82,Anas cyanoptera,Cinnamon Teal,null,7,null,MB-D
 UTPL_A0033,82,Anas discors,Blue-winged Teal,null,1,null,MB
-UTPL_A0034,82,Anas georgica,Yellow-billed Pintail,null,0,null,null
+UTPL_A0034,82,Anas georgica,Yellow-billed Pintail,null,7,null,null
 UTPL_A0035,53,Andigena hypoglauca,Gray-breasted Mountain-Toucan,null,3,null,null
 UTPL_A0036,73,Anisognathus igniventris,Scarlet-bellied Mountain-Tanager,null,1,null,null
 UTPL_A0037,73,Anisognathus notabilis,Black-chinned Mountain-Tanager,null,1,LOcA,null
-UTPL_A0038,48,Anthracothorax nigricollis,Black-throated Mango,null,0,null,null
-UTPL_A0040,40,Aphriza virgata,Surfbird,null,0,null,MB
-UTPL_A0041,56,Ara ambiguus,Great Green Macaw,null,0,null,null
-UTPL_A0042,56,Ara severus,Chestnut-fronted Macaw,null,0,null,null
+UTPL_A0038,48,Anthracothorax nigricollis,Black-throated Mango,null,7,null,null
+UTPL_A0040,40,Aphriza virgata,Surfbird,null,7,null,MB
+UTPL_A0041,56,Ara ambiguus,Great Green Macaw,null,7,null,null
+UTPL_A0042,56,Ara severus,Chestnut-fronted Macaw,null,7,null,null
 UTPL_A0043,38,Aramides axillaris,Rufous-necked Wood-Rail,null,1,null,null
-UTPL_A0044,38,Aramides wolfi,Brown Wood-Rail,null,0,B-Ch,null
-UTPL_A0045,109,Aramus guarauna,Limpkin,null,0,null,null
+UTPL_A0044,38,Aramides wolfi,Brown Wood-Rail,null,7,B-Ch,null
+UTPL_A0045,109,Aramus guarauna,Limpkin,null,7,null,null
 UTPL_A0046,56,Aratinga weddellii,Dusky-headed Parakeet,null,1,null,null
 UTPL_A0047,34,Ardea alba,Great Egret,null,1,null,MB - C ?
 UTPL_A0048,34,Ardea cocoi,Cocoi Heron,null,1,null,null
 UTPL_A0049,34,Ardea herodias,Great Blue Heron,null,1,null,MB - D
-UTPL_A0050,40,Arenaria interpres,Ruddy Turnstone,null,0,null,MB
+UTPL_A0050,40,Arenaria interpres,Ruddy Turnstone,null,7,null,MB
 UTPL_A0051,75,Arremon abeillei,Black-capped Sparrow,null,1,BT - RM,null
-UTPL_A0052,75,Arremon assimilis,Gray-browed Brush-Finch,null,0,null,null
+UTPL_A0052,75,Arremon assimilis,Gray-browed Brush-Finch,null,7,null,null
 UTPL_A0053,75,Arremon aurantiirostris,Orange-billed Sparrow,null,1,null,null
 UTPL_A0054,75,Arremon brunneinucha,Chestnut-capped Brush-Finch,Atlapetes brunneinucha,1,null,null
 UTPL_A0056,75,Arremonops conirostris,Black-striped Sparrow,null,1,null,null
-UTPL_A0057,43,Asio flammeus,Short-eared Owl,null,0,null,null
+UTPL_A0057,43,Asio flammeus,Short-eared Owl,null,7,null,null
 UTPL_A0059,61,Asthenes flammulata,Many-striped Canastero,null,1,null,null
 UTPL_A0060,61,Asthenes griseomurina,Mouse-colored Thistletail,Schizoeaca griseomurina�,1,LVI,null
-UTPL_A0062,79,Astragalinus psaltria,Lesser Goldfinch,null,0,null,null
-UTPL_A0063,43,Athene cunicularia,Burrowing Owl,Speotyto cunicularia,0,null,null
+UTPL_A0062,79,Astragalinus psaltria,Lesser Goldfinch,null,7,null,null
+UTPL_A0063,43,Athene cunicularia,Burrowing Owl,Speotyto cunicularia,7,null,null
 UTPL_A0064,75,Atlapetes albiceps,White-headed Brush-Finch,null,1,BT,null
 UTPL_A0065,75,Atlapetes latinuchus,Yellow-breasted Brush-Finch,null,1,null,null
 UTPL_A0066,75,Atlapetes leucopterus,White-winged Brush-Finch,null,1,LVI,null
-UTPL_A0067,75,Atlapetes pallidiceps,Pale-headed Brush-Finch,null,0,S-SO,null
+UTPL_A0067,75,Atlapetes pallidiceps,Pale-headed Brush-Finch,null,7,S-SO,null
 UTPL_A0068,75,Atlapetes pallidinucha,Pale-naped Brush-Finch,null,1,null,null
 UTPL_A0069,75,Atlapetes seebohmi,Bay-crowned Brush-Finch,null,1,S-SO,null
-UTPL_A0071,68,Atticora tibialis,White-thighed Swallow,null,0,null,null
-UTPL_A0072,62,Attila spadiceus,Bright-rumped Attila,null,0,null,null
+UTPL_A0071,68,Atticora tibialis,White-thighed Swallow,null,7,null,null
+UTPL_A0072,62,Attila spadiceus,Bright-rumped Attila,null,7,null,null
 UTPL_A0073,62,Attila torridus,Ochraceous Attila,null,2,BT,null
 UTPL_A0075,53,Aulacorhynchus haematopygus,Crimson-rumped Toucanet,null,1,null,null
 UTPL_A0076,53,Aulacorhynchus prasinus,Emerald Toucanet,null,1,null,null
-UTPL_A0077,61,Automolus ochrolaemus,Buff-throated Foliage-gleaner,null,0,null,null
+UTPL_A0077,61,Automolus ochrolaemus,Buff-throated Foliage-gleaner,null,7,null,null
 UTPL_A0078,51,Baryphthengus martii,Rufous Motmot,null,1,null,null
 UTPL_A0079,77,Basileuterus trifasciatus,Three-banded Warbler,null,1,S-SO,null
 UTPL_A0080,77,Basileuterus tristriatus,Three-striped Warbler,null,1,null,null
@@ -73,46 +73,46 @@ UTPL_A0081,48,Boissonneaua jardini,Velvet-purple Coronet,null,1,LOcA,null
 UTPL_A0082,48,Boissonneaua matthewsii,Chestnut-breasted Coronet,null,1,null,null
 UTPL_A0084,34,Botaurus pinnatus,Pinnated Bittern,null,1,null,null
 UTPL_A0085,56,Brotogeris pyrrhopterus,Gray-cheeked Parakeet,null,4,BT,null
-UTPL_A0086,56,Brotogeris versicolurus,Canary-winged Parakeet,null,0,null,null
+UTPL_A0086,56,Brotogeris versicolurus,Canary-winged Parakeet,null,7,null,null
 UTPL_A0087,43,Bubo virginianus,Great Horned Owl,null,1,null,null
 UTPL_A0088,34,Bubulcus ibis,Cattle Egret,null,1,null,MB - C ?
-UTPL_A0089,100,Burhinus superciliaris,Peruvian Thick-knee,null,0,null,null
+UTPL_A0089,100,Burhinus superciliaris,Peruvian Thick-knee,null,7,null,null
 UTPL_A0090,37,Buteo albigula,White-throated Hawk,null,1,null,null
 UTPL_A0091,37,Buteo albonotatus,Zone-tailed Hawk,null,1,null,null
 UTPL_A0092,37,Buteo brachyurus,Short-tailed Hawk,null,1,null,null
 UTPL_A0093,37,Buteo nitidus,Gray-lined Hawk,Asturina nitida,1,null,null
 UTPL_A0094,37,Buteo platypterus,Broad-winged Hawk,null,1,null,MB
 UTPL_A0095,37,Buteo swainsoni,Swainsons Hawk,null,1,null,MB -D-P
-UTPL_A0096,37,Buteogallus anthracinus,Common Black-Hawk,null,0,null,null
+UTPL_A0096,37,Buteogallus anthracinus,Common Black-Hawk,null,7,null,null
 UTPL_A0097,37,Buteogallus meridionalis,Savanna Hawk,null,1,null,null
 UTPL_A0098,37,Buteogallus solitarius,Solitary Eagle,null,3,null,null
 UTPL_A0099,37,Buteogallus urubitinga,Great Black-Hawk,null,1,null,null
 UTPL_A0101,73,Buthraupis montana,Hooded Mountain-Tanager,null,1,null,null
 UTPL_A0102,34,Butorides striata,Striated Heron,null,1,null,null
 UTPL_A0103,78,Cacicus cela,Yellow-rumped Cacique,null,1,null,null
-UTPL_A0104,78,Cacicus mycrorhynchus,Scarlet-rumped Cacique,null,0,null,null
+UTPL_A0104,78,Cacicus mycrorhynchus,Scarlet-rumped Cacique,null,7,null,null
 UTPL_A0106,82,Cairina moschata,Muscovy Duck,null,1,null,null
-UTPL_A0107,40,Calidris bairdii,Bairds Sandpiper,null,0,null,MB - P
-UTPL_A0108,40,Calidris canutus,Red Knot,null,0,null,MB - P
-UTPL_A0109,40,Calidris fuscicollis,White-rumped Sandpiper,null,0,null,MB - P
-UTPL_A0110,40,Calidris himantopus,Stilt Sandpiper,null,0,null,MB
-UTPL_A0111,40,Calidris mauri,Western Sandpiper,null,0,null,MB
-UTPL_A0112,40,Calidris melanotos,Pectoral Sandpiper,null,0,null,MB - P
-UTPL_A0113,40,Calidris minutilla,Least Sandpiper,null,0,null,MB
-UTPL_A0114,40,Calidris pusilla,Semipalmated Sandpiper,null,0,null,MB
+UTPL_A0107,40,Calidris bairdii,Bairds Sandpiper,null,7,null,MB - P
+UTPL_A0108,40,Calidris canutus,Red Knot,null,7,null,MB - P
+UTPL_A0109,40,Calidris fuscicollis,White-rumped Sandpiper,null,7,null,MB - P
+UTPL_A0110,40,Calidris himantopus,Stilt Sandpiper,null,7,null,MB
+UTPL_A0111,40,Calidris mauri,Western Sandpiper,null,7,null,MB
+UTPL_A0112,40,Calidris melanotos,Pectoral Sandpiper,null,7,null,MB - P
+UTPL_A0113,40,Calidris minutilla,Least Sandpiper,null,7,null,MB
+UTPL_A0114,40,Calidris pusilla,Semipalmated Sandpiper,null,7,null,MB
 UTPL_A0115,48,Calliphlox mitchellii,Purple-throated Woodstar,null,1,null,null
 UTPL_A0116,54,Campephilus gayaquilensis,Guayaquil Woodpecker,null,3,BT,null
 UTPL_A0119,62,Camptostoma obsoletum,Southern Beardless-Tyrannulet,null,1,null,null
 UTPL_A0120,61,Campylorhamphus pusillus,Brown-billed Scythebill,null,1,null,null
 UTPL_A0121,61,Campylorhamphus trochilirostris,Red-billed Scythebill,null,1,null,null
 UTPL_A0122,69,Campylorhynchus fasciatus,Fasciated Wren,Campylorhynchus fasciatus,1,BT,null
-UTPL_A0123,69,Campylorhynchus zonatus,Band-backed Wren,null,0,null,null
-UTPL_A0124,69,Cantorchilus nigricapillus,Bay Wren,Thryothorus nigricapillus,0,null,null
-UTPL_A0125,69,Cantorchilus superciliaris,Superciliated Wren,Tryothorus superciliaris,0,BT,null
-UTPL_A0126,103,Capito squamatus,Orange-fronted Barbet,null,0,B-Ch,null
+UTPL_A0123,69,Campylorhynchus zonatus,Band-backed Wren,null,7,null,null
+UTPL_A0124,69,Cantorchilus nigricapillus,Bay Wren,Thryothorus nigricapillus,7,null,null
+UTPL_A0125,69,Cantorchilus superciliaris,Superciliated Wren,Tryothorus superciliaris,7,BT,null
+UTPL_A0126,103,Capito squamatus,Orange-fronted Barbet,null,7,B-Ch,null
 UTPL_A0127,62,Capsiempis flaveola,Yellow Tyrannulet,null,1,null,null
 UTPL_A0128,55,Caracara cheriway,Crested Caracara,null,1,null,null
-UTPL_A0130,63,Carpodectes hopkei,Black-tipped Cotinga,null,0,null,null
+UTPL_A0130,63,Carpodectes hopkei,Black-tipped Cotinga,null,7,null,null
 UTPL_A0131,73,Catamblyrhynchus diadema,Plushcap,null,1,null,null
 UTPL_A0132,73,Catamenia analis,Band-tailed Seedeater,null,1,null,null
 UTPL_A0133,73,Catamenia inornata,Plain-colored Seedeater,null,1,null,null
@@ -120,11 +120,11 @@ UTPL_A0134,35,Cathartes aura,Turkey Vulture,null,1,null,MB - C
 UTPL_A0135,72,Catharus dryas,Spotted Nightingale-Thrush,null,1,null,null
 UTPL_A0136,72,Catharus fuscater,Slaty-backed Nightingale-Thrush,null,1,null,null
 UTPL_A0137,72,Catharus ustulatus,'Swainson''s Thrush',null,1,null,MB
-UTPL_A0138,54,Celeus loricatus,Cinnamon Woodpecker,null,0,null,null
+UTPL_A0138,54,Celeus loricatus,Cinnamon Woodpecker,null,7,null,null
 UTPL_A0139,63,Cephalopterus penduliger,Long-wattled Umbrellabird,null,2,B-Ch,null
-UTPL_A0141,57,Cercomacra nigricans,Jet Antbird,null,0,null,null
-UTPL_A0142,57,Cercomacra tyrannina,Dusky Antbird,null,0,null,null
-UTPL_A0143,48,Chaetocercus berlepschi,Esmeraldas Woodstar,null,0,BT,null
+UTPL_A0141,57,Cercomacra nigricans,Jet Antbird,null,7,null,null
+UTPL_A0142,57,Cercomacra tyrannina,Dusky Antbird,null,7,null,null
+UTPL_A0143,48,Chaetocercus berlepschi,Esmeraldas Woodstar,null,7,BT,null
 UTPL_A0144,48,Chaetocercus bombus,Little Woodstar,Acestrura bombus,2,BT,null
 UTPL_A0145,48,Chaetocercus mulsant,White-bellied Woodstar,null,1,null,null
 UTPL_A0146,47,Chaetura brachyura,Short-tailed Swift,null,1,null,null
@@ -132,10 +132,10 @@ UTPL_A0147,47,Chaetura cinereiventris,Gray-rumped Swift,null,1,null,null
 UTPL_A0150,48,Chalybura buffonii,White-vented Plumeleteer,null,1,null,null
 UTPL_A0151,30,Chamaepetes goudotii,Sickle-winged Guan,null,1,null,null
 UTPL_A0152,85,Charadrius collaris,Collared Plover,null,1,null,null
-UTPL_A0153,85,Charadrius nivosus,Snowy Plover,null,0,null,null
-UTPL_A0154,85,Charadrius semipalmatus,Semipalmated Plover,null,0,null,MB 
+UTPL_A0153,85,Charadrius nivosus,Snowy Plover,null,7,null,null
+UTPL_A0154,85,Charadrius semipalmatus,Semipalmated Plover,null,7,null,MB 
 UTPL_A0155,85,Charadrius vociferus,Killdeer,null,1,null,MB
-UTPL_A0156,85,Charadrius wilsonia,Wilson�s Plover,null,0,null,null
+UTPL_A0156,85,Charadrius wilsonia,Wilson�s Plover,null,7,null,null
 UTPL_A0158,50,Chloroceryle americana,Green Kingfisher,null,1,null,null
 UTPL_A0159,73,Chlorochrysa phoenicotis,Glistening-green Tanager,null,1,LOcA,null
 UTPL_A0160,73,Chlorophanes spiza,Green Honeycreeper,null,1,null,null
@@ -146,15 +146,15 @@ UTPL_A0165,73,Chlorospingus ophthalmicus,Yellow-throated Chlorospingus,null,1,nu
 UTPL_A0167,76,Chlorothraupis stolzmanni,Ochre-breasted Tanager,null,1,LOcA,null
 UTPL_A0168,37,Chondrohierax uncinatus,Hook-billed Kite,null,1,null,null
 UTPL_A0169,46,Chordeiles acutipennis,Lesser Nighthawk,null,1,null,null
-UTPL_A0171,92,Chroicocephalus cirrocephalus,Gray-hooded Gull,Larus cirrocephalus,0,null,null
+UTPL_A0171,92,Chroicocephalus cirrocephalus,Gray-hooded Gull,Larus cirrocephalus,7,null,null
 UTPL_A0172,43,Ciccaba nigrolineata,Black-and-white Owl,null,1,null,null
 UTPL_A0173,43,Ciccaba virgata,Mottled Owl,null,1,null,null
 UTPL_A0175,71,Cinclus leucocephalus,White-capped Dipper,null,1,null,null
 UTPL_A0176,69,Cinnycerthia unirufa,Rufous Wren,null,1,null,null
-UTPL_A0177,37,Circus cinereus,Cinereous Harrier,null,0,null,null
+UTPL_A0177,37,Circus cinereus,Cinereous Harrier,null,7,null,null
 UTPL_A0178,69,Cistothorus platensis,Sedge Wren,null,1,null,null
 UTPL_A0180,41,Claravis pretiosa,Blue Ground-Dove,null,1,null,null
-UTPL_A0181,61,Clibanornis rubiginosus,Ruddy Foliage-gleaner,null,0,null,null
+UTPL_A0181,61,Clibanornis rubiginosus,Ruddy Foliage-gleaner,null,7,null,null
 UTPL_A0182,62,Cnipodectes subbrunneus,Brownish Twistwing,null,1,null,null
 UTPL_A0183,42,Coccycua minuta,Little Cuckoo,Piaya minuta,1,null,null
 UTPL_A0184,42,Coccyzus erythropthalmus,Black-billed Cuckoo,null,1,null,MB
@@ -167,13 +167,13 @@ UTPL_A0191,54,Colaptes rubiginosus,Golden-olive Woodpecker,Piculus rubiginosus,1
 UTPL_A0192,54,Colaptes rupicola,Andean Flicker,null,1,null,null
 UTPL_A0193,48,Colibri coruscans,Sparkling Violetear,null,1,null,null
 UTPL_A0194,48,Colibri delphinae,Brown Violetear,null,1,null,null
-UTPL_A0196,41,Columba livia,Rock Pigeon,null,0,null,null
+UTPL_A0196,41,Columba livia,Rock Pigeon,null,7,null,null
 UTPL_A0197,41,Columbina buckleyi,Ecuadorian Ground-Dove,null,1,BT,null
 UTPL_A0198,41,Columbina cruziana,Croaking Ground-Dove,null,1,null,null
-UTPL_A0199,41,Columbina minuta,Plain-breasted Ground-Dove,null,0,null,null
-UTPL_A0200,73,Conirostrum cinereum,Cinereous Conebill,null,0,null,null
+UTPL_A0199,41,Columbina minuta,Plain-breasted Ground-Dove,null,7,null,null
+UTPL_A0200,73,Conirostrum cinereum,Cinereous Conebill,null,7,null,null
 UTPL_A0201,73,Conirostrum sitticolor,Blue-backed Conebill,null,1,null,null
-UTPL_A0202,62,Conopias albovittatus,White-ringed Flycatcher,null,0,null,null
+UTPL_A0202,62,Conopias albovittatus,White-ringed Flycatcher,null,7,null,null
 UTPL_A0204,73,Conothraupis speculigera,Black-and-white Tanager,null,3,null,MI
 UTPL_A0205,62,Contopus cinereus,Tropical Pewee,null,1,BT SSP,null
 UTPL_A0206,62,Contopus cooperi,Olive-sided Flycatcher,Contopus borealis,3,null,MB
@@ -181,14 +181,14 @@ UTPL_A0207,62,Contopus fumigatus,Smoke-colored Pewee,null,1,null,null
 UTPL_A0208,62,Contopus sordidulus,Western Wood-Pewee,null,1,null,MB
 UTPL_A0210,35,Coragyps atratus,Black Vulture,null,1,null,null
 UTPL_A0212,61,Cranioleuca antisiensis,Line-cheeked Spinetail,null,1,S-SO,null
-UTPL_A0213,61,Cranioleuca erythrops,Red-faced Spinetail,null,0,null,null
-UTPL_A0214,30,Crax rubra,Great Curassow,null,0,null,null
-UTPL_A0215,42,Crotophaga ani,Smooth-billed Ani,null,0,null,null
-UTPL_A0216,42,Crotophaga major,Greater Ani,null,0,null,null
+UTPL_A0213,61,Cranioleuca erythrops,Red-faced Spinetail,null,7,null,null
+UTPL_A0214,30,Crax rubra,Great Curassow,null,7,null,null
+UTPL_A0215,42,Crotophaga ani,Smooth-billed Ani,null,7,null,null
+UTPL_A0216,42,Crotophaga major,Greater Ani,null,7,null,null
 UTPL_A0217,42,Crotophaga sulcirostris,Groove-billed Ani,null,1,null,null
-UTPL_A0218,37,Cryptoleucopteryx plumbea,Plumbeous Hawk,Leucopternis plumbea,0,null,null
-UTPL_A0219,64,Cryptopipo holochlora,Green Manakin,null,0,null,null
-UTPL_A0220,29,Crypturellus berlepschi,Berlepsch�s Tinamou,null,0,B-Ch,null
+UTPL_A0218,37,Cryptoleucopteryx plumbea,Plumbeous Hawk,Leucopternis plumbea,7,null,null
+UTPL_A0219,64,Cryptopipo holochlora,Green Manakin,null,7,null,null
+UTPL_A0220,29,Crypturellus berlepschi,Berlepsch�s Tinamou,null,7,B-Ch,null
 UTPL_A0222,29,Crypturellus soui,Little Tinamou,null,1,null,null
 UTPL_A0223,29,Crypturellus transfasciatus,Pale-browed Tinamou,null,3,BT,null
 UTPL_A0225,73,Cyanerpes caeruleus,Purple Honeycreeper,null,1,null,null
@@ -196,16 +196,16 @@ UTPL_A0226,76,Cyanocompsa cyanoides,Blue-black Grosbeak,null,1,null,null
 UTPL_A0227,67,Cyanocorax mystacalis,White-tailed Jay,null,1,BT,null
 UTPL_A0229,67,Cyanolyca turcosa,Turquoise Jay,null,1,null,null
 UTPL_A0230,66,Cyclarhis gujanensis,Rufous-browed Peppershrike,null,1,null,null
-UTPL_A0231,57,Cymbilaimus lineatus,Fasciated Antshrike,null,0,null,null
+UTPL_A0231,57,Cymbilaimus lineatus,Fasciated Antshrike,null,7,null,null
 UTPL_A0232,69,Cyphorhinus phaeocephalus,Song Wren,null,1,null,null
 UTPL_A0233,69,Cyphorhinus phaeocephalus,Song Wren,null,1,null,null
-UTPL_A0234,73,Dacnis berlepschi,Scarlet-breasted Dacnis,null,0,B-Ch,null
+UTPL_A0234,73,Dacnis berlepschi,Scarlet-breasted Dacnis,null,7,B-Ch,null
 UTPL_A0235,73,Dacnis cayana,Blue Dacnis,null,1,null,null
 UTPL_A0236,73,Dacnis lineata,Black-faced Dacnis,null,1,null,null
-UTPL_A0237,73,Dacnis venusta,Scarlet-thighed Dacnis,null,0,null,null
+UTPL_A0237,73,Dacnis venusta,Scarlet-thighed Dacnis,null,7,null,null
 UTPL_A0238,48,Damophila julie,Violet-bellied Hummingbird,null,1,null,null
 UTPL_A0239,61,Dendrocincla fuliginosa,Plain-brown Woodcreeper,null,1,null,null
-UTPL_A0241,61,Dendrocolaptes sanctithomae,Northern Barred-Woodcreeper,null,0,null,null
+UTPL_A0241,61,Dendrocolaptes sanctithomae,Northern Barred-Woodcreeper,null,7,null,null
 UTPL_A0242,82,Dendrocygna autumnalis,Black-bellied Whistling-Duck,null,1,null,null
 UTPL_A0244,73,Diglossa albilatera,White-sided Flowerpiercer,null,1,null,null
 UTPL_A0246,73,Diglossa cyanea,Masked Flowerpiercer,null,1,null,null
@@ -215,13 +215,13 @@ UTPL_A0249,73,Diglossa lafresnayii,Glossy Flowerpiercer,null,1,null,null
 UTPL_A0250,73,Diglossa sittoides,Rusty Flowerpiercer,null,1,null,null
 UTPL_A0251,48,Discosura conversii,Green Thorntail,Popelaira conversii,1,null,null
 UTPL_A0252,78,Dives warszewiczi,Scrub Blackbird,null,1,null,null
-UTPL_A0255,54,Dryocopus lineatus,Lineated Woodpecker,null,0,null,null
+UTPL_A0255,54,Dryocopus lineatus,Lineated Woodpecker,null,7,null,null
 UTPL_A0256,57,Dysithamnus mentalis,Plain Antvireo,null,1,null,null
-UTPL_A0257,57,Dysithamnus puncticeps,Spot-crowned Antvireo,null,0,null,null
+UTPL_A0257,57,Dysithamnus puncticeps,Spot-crowned Antvireo,null,7,null,null
 UTPL_A0258,34,Egretta caerulea,Little Blue Heron,null,1,null,MB - C ?
 UTPL_A0259,34,Egretta thula,Snowy Egret,null,1,null,null
 UTPL_A0260,34,Egretta tricolor,Tricolored Heron,null,1,null,MB - C 
-UTPL_A0261,62,Elaenia albiceps,White-crested Elaenia,null,0,null,null
+UTPL_A0261,62,Elaenia albiceps,White-crested Elaenia,null,7,null,null
 UTPL_A0262,62,Elaenia flavogaster,Yellow-bellied Elaenia,null,1,null,null
 UTPL_A0264,62,Elaenia pallatangae,Sierran Elaenia,null,1,null,null
 UTPL_A0265,37,Elanoides forficatus,Swallow-tailed Kite,null,1,null,MB - C 
@@ -229,11 +229,11 @@ UTPL_A0266,51,Electron platyrhynchum,Broad-billed Motmot,null,1,null,null
 UTPL_A0267,62,Empidonax virescens,Acadian Flycatcher,null,1,null,MB
 UTPL_A0269,57,Epinecrophylla fulviventris,Checker-throated Antwren,Myrmotherula fulviventris,1,null,null
 UTPL_A0270,48,Eriocnemis vestita,Glowing Puffleg,Eriocnemis vestitus,1,null,null
-UTPL_A0271,103,Eubucco bourcierii,Red-headed Barbet,null,0,null,null
-UTPL_A0272,57,Euchrepomis callinota,Rufous-rumped Antwren,Terenura callinota,0,null,null
+UTPL_A0271,103,Eubucco bourcierii,Red-headed Barbet,null,7,null,null
+UTPL_A0272,57,Euchrepomis callinota,Rufous-rumped Antwren,Terenura callinota,7,null,null
 UTPL_A0273,89,Eudocimus albus,White Ibis,null,1,null,null
 UTPL_A0274,79,Euphonia cyanocephala,Golden-rumped Euphonia,null,1,null,null
-UTPL_A0275,79,Euphonia fulvicrissa,Fulvous-vented Euphonia,null,0,null,null
+UTPL_A0275,79,Euphonia fulvicrissa,Fulvous-vented Euphonia,null,7,null,null
 UTPL_A0276,79,Euphonia laniirostris,Thick-billed Euphonia,null,1,null,null
 UTPL_A0278,79,Euphonia saturata,Orange-crowned Euphonia,null,1,null,null
 UTPL_A0279,79,Euphonia xanthogaster,Orange-bellied Euphonia,null,1,null,null
@@ -242,24 +242,24 @@ UTPL_A0281,62,Euscarthmus meloryphus,Tawny-crowned Pygmy-Tyrant,null,1,null,null
 UTPL_A0282,48,Eutoxeres aquila,White-tipped Sicklebill,null,1,null,null
 UTPL_A0283,55,Falco columbarius,Merlin,null,1,null,MB
 UTPL_A0284,55,Falco femoralis,Aplomado Falcon,null,1,null,null
-UTPL_A0285,55,Falco peregrinus,Peregrine Falcon,null,0,null,MB-C
+UTPL_A0285,55,Falco peregrinus,Peregrine Falcon,null,7,null,MB-C
 UTPL_A0286,55,Falco rufigularis,Bat Falcon,null,1,null,null
 UTPL_A0287,55,Falco sparverius,American Kestrel,null,1,null,null
 UTPL_A0288,48,Florisuga mellivora,White-necked Jacobin,null,1,null,null
-UTPL_A0289,62,Fluvicola nengeta,Masked Water-Tyrant,null,0,null,null
-UTPL_A0290,60,Formicarius nigricapillus,Black-headed Antthrush,null,0,null,null
+UTPL_A0289,62,Fluvicola nengeta,Masked Water-Tyrant,null,7,null,null
+UTPL_A0290,60,Formicarius nigricapillus,Black-headed Antthrush,null,7,null,null
 UTPL_A0291,60,Formicarius rufipectus,Rufous-breasted Antthrush,null,1,null,null
 UTPL_A0292,56,Forpus coelestis,Pacific Parrotlet,null,1,BT,null
 UTPL_A0293,33,Fregata magnificens,Magnificent Frigatebird,null,1,null,null
-UTPL_A0294,38,Fulica ardesiaca,Slate-colored Coot,null,0,null,null
+UTPL_A0294,38,Fulica ardesiaca,Slate-colored Coot,null,7,null,null
 UTPL_A0295,73,Furnarius cinnamomeus,Pale-legged Hornero,null,1,BT,null
-UTPL_A0296,61,Furnarius leucopus,Pale-legged Hornero,null,0,BT ssp,null
+UTPL_A0296,61,Furnarius leucopus,Pale-legged Hornero,null,7,BT ssp,null
 UTPL_A0297,104,Galbula ruficauda,Rufous-tailed Jacamar,null,1,null,null
 UTPL_A0300,40,Gallinago jamesoni,Andean Snipe,null,1,null,null
-UTPL_A0302,38,Gallinula galeata,Common Gallinule,null,0,null,null
+UTPL_A0302,38,Gallinula galeata,Common Gallinule,null,7,null,null
 UTPL_A0303,37,Gampsonyx swainsonii,Pearl Kite,null,1,null,null
-UTPL_A0304,92,Gelochelidon nilotica,Gull-billed Tern,Sterna nilotica,0,null,null
-UTPL_A0306,61,Geositta peruviana,Coastal miner ,null,0,null,null
+UTPL_A0304,92,Gelochelidon nilotica,Gull-billed Tern,Sterna nilotica,7,null,null
+UTPL_A0306,61,Geositta peruviana,Coastal miner ,null,7,null,null
 UTPL_A0307,77,Geothlypis aequinoctialis,Masked Yellowthroat,null,1,BT,null
 UTPL_A0308,77,Geothlypis semiflava,Olive-crowned Yellowthroat,null,1,null,null
 UTPL_A0309,41,Zentrygon frenata,White-throated Quail-Dove,null,1,null,null
@@ -269,7 +269,7 @@ UTPL_A0312,37,Geranoaetus polyosoma,Variable Hawk,Buteo polyosoma,1,null,null
 UTPL_A0313,37,Geranospiza caerulescens,Crane Hawk,null,1,null,null
 UTPL_A0315,43,Glaucidium jardinii,Andean Pygmy-Owl,null,1,null,null
 UTPL_A0317,43,Glaucidium peruanum,Peruvian Pygmy-Owl,null,1,BT,null
-UTPL_A0318,48,Glaucis aeneus,Bronzy Hermit,null,0,null,null
+UTPL_A0318,48,Glaucis aeneus,Bronzy Hermit,null,7,null,null
 UTPL_A0319,61,Glyphorynchus spirurus,Wedge-billed Woodcreeper,null,1,null,null
 UTPL_A0320,59,Grallaria guatimalensis,Scaled Antpitta,null,1,null,null
 UTPL_A0321,59,Grallaria haplonota,Plain-backed Antpitta,null,1,null,null
@@ -279,13 +279,13 @@ UTPL_A0324,59,Grallaria ruficapilla,Chestnut-crowned Antpitta,null,1,null,null
 UTPL_A0325,59,Grallaria rufula,Rufous Antpitta,null,1,null,null
 UTPL_A0326,59,Grallaria squamigera,Undulated Antpitta,null,1,null,null
 UTPL_A0327,59,Grallaria watkinsi,Watkins� Antpitta,null,3,S-SO,null
-UTPL_A0330,99,Haematopus palliatus,American Oystercatcher,null,0,null,null
+UTPL_A0330,99,Haematopus palliatus,American Oystercatcher,null,7,null,null
 UTPL_A0332,73,Haplospiza rustica,Slaty Finch,null,1,null,null
 UTPL_A0333,37,Harpagus bidentatus,Double-toothed Kite,null,1,null,null
 UTPL_A0334,48,Heliangelus amethysticollis,Amethyst-throated Sunangel,null,1,null,null
 UTPL_A0335,48,Heliangelus micraster,Little Sunangel,null,1,LOrA,null
 UTPL_A0336,48,Heliangelus strophianus,Gorgeted Sunangel,null,1,LOcA,null
-UTPL_A0337,48,Heliangelus viola,Purple-throated Sunangel,null,0,S-SO,null
+UTPL_A0337,48,Heliangelus viola,Purple-throated Sunangel,null,7,S-SO,null
 UTPL_A0338,48,Heliodoxa jacula,Green-crowned Brilliant,null,1,null,null
 UTPL_A0340,48,Heliodoxa rubinoides,Fawn-breasted Brilliant,null,1,null,null
 UTPL_A0341,48,Heliomaster longirostris,Long-billed Starthroat,null,1,null,null
@@ -298,35 +298,35 @@ UTPL_A0348,73,Hemithraupis guira,Guira Tanager,null,1,null,null
 UTPL_A0349,62,Hemitriccus granadensis,Black-throated Tody-Tyrant,null,1,null,null
 UTPL_A0350,69,Henicorhina leucophrys,Gray-breasted Wood-Wren,null,1,null,null
 UTPL_A0351,55,Herpetotheres cachinnans,Laughing Falcon,null,1,null,null
-UTPL_A0353,57,Herpsilochmus rufimarginatus,Rufous-winged Antwren,null,0,null,null
-UTPL_A0354,73,Heterospingus xanthopygius,Scarlet-browed Tanager,null,0,B-Ch,null
-UTPL_A0355,90,Himantopus mexicanus,Black-necked Stilt,null,0,null,null
+UTPL_A0353,57,Herpsilochmus rufimarginatus,Rufous-winged Antwren,null,7,null,null
+UTPL_A0354,73,Heterospingus xanthopygius,Scarlet-browed Tanager,null,7,B-Ch,null
+UTPL_A0355,90,Himantopus mexicanus,Black-necked Stilt,null,7,null,null
 UTPL_A0356,68,Hirundo rustica,Barn Swallow,null,1,null,MB
 UTPL_A0358,61,Hylocryptus erythrocephalus,Henna-hooded Foliage-gleaner,null,2,BT,null
-UTPL_A0359,61,Automolus subulatus,Western Woodhaunter,Hyloctistes virgatus,0,null,null
+UTPL_A0359,61,Automolus subulatus,Western Woodhaunter,Hyloctistes virgatus,7,null,null
 UTPL_A0360,62,Ochthoeca diadema,Yellow-bellied Chat-Tyrant,null,1,null,null
-UTPL_A0361,59,Hylopezus perspicillatus,Streak-chested Antpitta,null,0,null,null
-UTPL_A0362,66,Pachysylvia decurtata,Lesser Greenlet,null,0,null,null
-UTPL_A0363,57,Hylophylax naevioides,Spotted Antbird,null,0,null,null
+UTPL_A0361,59,Hylopezus perspicillatus,Streak-chested Antpitta,null,7,null,null
+UTPL_A0362,66,Pachysylvia decurtata,Lesser Greenlet,null,7,null,null
+UTPL_A0363,57,Hylophylax naevioides,Spotted Antbird,null,7,null,null
 UTPL_A0364,78,Icterus graceannae,White-edged Oriole,null,1,BT,null
 UTPL_A0365,78,Icterus mesomelas,Yellow-tailed Oriole,null,1,null,null
 UTPL_A0366,37,Ictinia plumbea,Plumbeous Kite,null,1,null,MB - C ?
 UTPL_A0370,73,Iridosornis rufivertex,Golden-crowned Tanager,null,1,null,null
-UTPL_A0371,34,Ixobrychus exilis,Least Bittern,null,0,null,MB - C ?
-UTPL_A0372,91,Jacana jacana,Wattled Ja�ana,null,0,null,null
-UTPL_A0373,62,Knipolegus orenocensis,Riverside Tyrant,null,0,null,null
+UTPL_A0371,34,Ixobrychus exilis,Least Bittern,null,7,null,MB - C ?
+UTPL_A0372,91,Jacana jacana,Wattled Ja�ana,null,7,null,null
+UTPL_A0373,62,Knipolegus orenocensis,Riverside Tyrant,null,7,null,null
 UTPL_A0375,48,Lafresnaya lafresnayi,Mountain Velvetbreast,null,1,null,null
-UTPL_A0376,92,Larosterna inca,Inca Tern,null,0,null,DP - D
-UTPL_A0377,92,Larus belcheri,'Belcher''s Gull',null,0,null,DP - D
-UTPL_A0378,92,Larus dominicanus,Kelp Gull,null,0,null,DP
+UTPL_A0376,92,Larosterna inca,Inca Tern,null,7,null,DP - D
+UTPL_A0377,92,Larus belcheri,'Belcher''s Gull',null,7,null,DP - D
+UTPL_A0378,92,Larus dominicanus,Kelp Gull,null,7,null,DP
 UTPL_A0379,41,Metriopelia ceciliae,Bare-faced Ground-Dove,null,1,null,null
 UTPL_A0380,38,Laterallus albigularis,White-throated Crake,null,1,null,null
 UTPL_A0382,62,Lathrotriccus griseipectus,Gray-breasted Flycatcher,null,2,BT - RM,null
 UTPL_A0383,62,Legatus leucophaius,Piratic Flycatcher,null,1,null,null
-UTPL_A0384,61,Lepidocolaptes lachrymiger,Montane Woodcreeper,null,0,null,null
+UTPL_A0384,61,Lepidocolaptes lachrymiger,Montane Woodcreeper,null,7,null,null
 UTPL_A0385,61,Lepidocolaptes souleyetii,Streak-headed Woodcreeper,null,1,null,null
-UTPL_A0386,64,Lepidothrix coronata,Blue-crowned Manakin,null,0,null,null
-UTPL_A0387,61,Leptasthenura pileata,Rusty-crowned Tit-spinetail,null,0,null,null
+UTPL_A0386,64,Lepidothrix coronata,Blue-crowned Manakin,null,7,null,null
+UTPL_A0387,61,Leptasthenura pileata,Rusty-crowned Tit-spinetail,null,7,null,null
 UTPL_A0388,37,Leptodon cayanensis,Gray-headed Kite,null,1,null,null
 UTPL_A0390,62,Leptopogon superciliaris,Slaty-capped Flycatcher,null,1,null,null
 UTPL_A0391,56,Leptosittaca branickii,Golden-plumed Parakeet,null,2,null,null
@@ -335,13 +335,13 @@ UTPL_A0393,41,Leptotila pallida,Pallid Dove,null,1,B-Ch,null
 UTPL_A0394,41,Leptotila verreauxi,White-tipped Dove,null,1,null,null
 UTPL_A0395,48,Lesbia nuna,Green-tailed Trainbearer,null,1,null,null
 UTPL_A0396,48,Leucippus baeri,Tumbes Hummingbird,null,1,BT,null
-UTPL_A0398,92,Leucophaeus atricilla,Laughing Gull,null,0,null,MB
-UTPL_A0399,92,Leucophaeus modestus,Gray Gull,null,0,null,DP
-UTPL_A0400,92,Leucophaeus pipixcan,Franklin�s Gull,null,0,null,MB - P
-UTPL_A0401,37,Leucopternis semiplumbeus,Semiplumbeous Hawk,null,0,null,null
-UTPL_A0402,40,Limnodromus griseus,Short-billed Dowitcher,null,0,null,MB
-UTPL_A0403,40,Limosa haemastica,Hudsonian Godwit,null,0,null,MB - P
-UTPL_A0404,63,Lipaugus unirufus,Rufous Piha,null,0,null,null
+UTPL_A0398,92,Leucophaeus atricilla,Laughing Gull,null,7,null,MB
+UTPL_A0399,92,Leucophaeus modestus,Gray Gull,null,7,null,DP
+UTPL_A0400,92,Leucophaeus pipixcan,Franklin�s Gull,null,7,null,MB - P
+UTPL_A0401,37,Leucopternis semiplumbeus,Semiplumbeous Hawk,null,7,null,null
+UTPL_A0402,40,Limnodromus griseus,Short-billed Dowitcher,null,7,null,MB
+UTPL_A0403,40,Limosa haemastica,Hudsonian Godwit,null,7,null,MB - P
+UTPL_A0404,63,Lipaugus unirufus,Rufous Piha,null,7,null,null
 UTPL_A0405,43,Lophostrix cristata,Crested Owl,null,1,null,null
 UTPL_A0406,62,Lophotriccus pileatus,Scale-crested Pygmy-Tyrant,null,1,null,null
 UTPL_A0408,46,Lurocalis semitorquatus,Short-tailed Nighthawk,null,1,null,null
@@ -352,7 +352,7 @@ UTPL_A0412,61,Margarornis squamiger,Pearled Treerunner,null,1,null,null
 UTPL_A0413,64,Masius chrysopterus,Golden-winged Manakin,null,1,null,null
 UTPL_A0414,62,Mecocerculus calopterus,Rufous-winged Tyrannulet,null,1,BT,null
 UTPL_A0415,62,Mecocerculus leucophrys,White-throated Tyrannulet,null,1,null,null
-UTPL_A0417,62,Mecocerculus poecilocercus,White-tailed Tyrannulet,null,0,null,null
+UTPL_A0417,62,Mecocerculus poecilocercus,White-tailed Tyrannulet,null,7,null,null
 UTPL_A0418,62,Mecocerculus stictopterus,White-banded Tyrannulet,null,1,null,null
 UTPL_A0419,50,Megaceryle torquata,Ringed Kingfisher,null,1,null,null
 UTPL_A0420,62,Megarynchus pitangua,Boat-billed Flycatcher,null,1,null,null
@@ -364,52 +364,52 @@ UTPL_A0426,54,Melanerpes pucherani,Black-cheeked Woodpecker,null,1,null,null
 UTPL_A0427,58,Melanopareia elegans,Elegant Crescentchest,null,1,BT,null
 UTPL_A0430,48,Metallura tyrianthina,Tyrian Metaltail,null,1,null,null
 UTPL_A0431,55,Micrastur ruficollis ,Barred Forest-Falcon ,null,1,null,null
-UTPL_A0432,55,Micrastur semitorquatus,Collared Forest-Falcon,null,0,null,null
+UTPL_A0432,55,Micrastur semitorquatus,Collared Forest-Falcon,null,7,null,null
 UTPL_A0433,70,Microbates cinereiventris,Tawny-faced Gnatwren,null,1,null,null
-UTPL_A0434,69,Microcerculus marginatus,Scaly-breasted Wren,null,0,null,null
-UTPL_A0435,52,Micromonacha lanceolata,Lanceolated Monklet,null,0,null,null
-UTPL_A0436,57,Microrhopias quixensis,Dot-winged Antwren,null,0,null,null
+UTPL_A0434,69,Microcerculus marginatus,Scaly-breasted Wren,null,7,null,null
+UTPL_A0435,52,Micromonacha lanceolata,Lanceolated Monklet,null,7,null,null
+UTPL_A0436,57,Microrhopias quixensis,Dot-winged Antwren,null,7,null,null
 UTPL_A0437,84,Mimus longicaudatus,Long-tailed Mockingbird,null,1,null,null
 UTPL_A0438,62,Mionectes oleagineus,Ochre-bellied Flycatcher,null,1,null,null
 UTPL_A0439,62,Mionectes olivaceus,Olive-striped Flycatcher,null,1,null,null
 UTPL_A0440,62,Mionectes striaticollis,Streak-necked Flycatcher,null,1,null,null
-UTPL_A0441,74,Mitrospingus cassinii,Dusky-faced Tanager,null,0,null,null
+UTPL_A0441,74,Mitrospingus cassinii,Dusky-faced Tanager,null,7,null,null
 UTPL_A0442,77,Mniotilta varia,Black-and-white Warbler,null,1,null,MB
 UTPL_A0443,78,Molothrus bonariensis,Shiny Cowbird,null,1,null,null
 UTPL_A0444,78,Molothrus oryzivorus,Giant Cowbird,Scaphidura oryzivora,1,null,null
 UTPL_A0445,51,Momotus momota,Amazonian Motmot,null,1,null,null
-UTPL_A0446,51,Momotus subrufescens,Whooping Motmot,null,0,null,null
+UTPL_A0446,51,Momotus subrufescens,Whooping Motmot,null,7,null,null
 UTPL_A0447,37,Morphnarchus princeps,Barred Hawk,null,1,null,null
 UTPL_A0448,62,Muscigralla brevicauda,Short-tailed Field-Tyrant,null,1,null,null
 UTPL_A0449,62,Muscisaxicola albilora,White-browed Ground-Tyrant,null,1,null,MA
 UTPL_A0451,72,Myadestes ralloides,Andean Solitaire,null,1,null,null
 UTPL_A0452,32,Mycteria americana,Wood Stork,null,1,null,null
 UTPL_A0453,62,Myiarchus phaeocephalus,Sooty-crowned Flycatcher,null,1,BT - RM,null
-UTPL_A0454,62,Myiarchus semirufus,Rufous Flycatcher,null,0,null,null
+UTPL_A0454,62,Myiarchus semirufus,Rufous Flycatcher,null,7,null,null
 UTPL_A0455,62,Myiarchus tuberculifer,Dusky-capped Flycatcher,null,1,null,null
 UTPL_A0456,62,Myiobius atricaudus,Black-tailed Flycatcher,null,1,null,null
-UTPL_A0457,62,Myiobius barbatus,Whiskered Flycatcher,null,0,null,null
+UTPL_A0457,62,Myiobius barbatus,Whiskered Flycatcher,null,7,null,null
 UTPL_A0458,77,Myioborus melanocephalus,Spectacled Redstart,null,1,null,null
 UTPL_A0459,77,Myioborus miniatus,Slate-throated Whitestart,null,1,null,null
 UTPL_A0460,62,Myiodynastes bairdii,Baird�s Flycatcher,null,1,BT,null
 UTPL_A0461,62,Myiodynastes chrysocephalus,Golden-crowned Flycatcher,null,1,null,null
 UTPL_A0462,62,Myiodynastes maculatus,Streaked Flycatcher,null,1,null,MA - C
-UTPL_A0463,62,Myiopagis caniceps,Gray Elaenia,null,0,null,null
+UTPL_A0463,62,Myiopagis caniceps,Gray Elaenia,null,7,null,null
 UTPL_A0464,62,Myiopagis subplacens,Pacific Elaenia,null,1,BT,null
 UTPL_A0465,62,Myiopagis viridicata,Greenish Elaenia,null,1,null,null
 UTPL_A0466,62,Myiophobus fasciatus,Bran-colored Flycatcher,null,1,null,null
 UTPL_A0467,62,Myiophobus flavicans,Flavescent Flycatcher,null,1,null,null
 UTPL_A0468,62,Myiophobus phoenicomitra,Orange-crested Flycatcher,null,1,LOcA - LOrA,null
-UTPL_A0469,62,Myiornis ecaudatus,Short-tailed  Pygmy-Tyrant,null,0,null,null
+UTPL_A0469,62,Myiornis ecaudatus,Short-tailed  Pygmy-Tyrant,null,7,null,null
 UTPL_A0470,62,Myiotheretes fumigatus,Smoky Bush-Tyrant,null,1,null,null
 UTPL_A0471,62,Myiotheretes striaticollis,Streak-throated Bush-Tyrant,null,1,null,null
-UTPL_A0472,77,Myiothlypis coronata,Russet-crowned Warbler,null,0,null,null
-UTPL_A0473,77,Myiothlypis fraseri,Gray-and-gold Warbler,Brasileuterus fraseri,0,BT,null
-UTPL_A0474,77,Myiothlypis fulvicauda,Buff-rumped Warbler,null,0,null,null
-UTPL_A0475,77,Myiothlypis nigrocristata,Black-crested Warbler,Brasileuterus negrocristata,0,null,null
+UTPL_A0472,77,Myiothlypis coronata,Russet-crowned Warbler,null,7,null,null
+UTPL_A0473,77,Myiothlypis fraseri,Gray-and-gold Warbler,Brasileuterus fraseri,7,BT,null
+UTPL_A0474,77,Myiothlypis fulvicauda,Buff-rumped Warbler,null,7,null,null
+UTPL_A0475,77,Myiothlypis nigrocristata,Black-crested Warbler,Brasileuterus negrocristata,7,null,null
 UTPL_A0476,62,Myiotriccus ornatus,Ornate Flycatcher,null,1,null,null
 UTPL_A0477,62,Myiozetetes cayanensis,Rusty-margined Flycatcher,null,1,null,null
-UTPL_A0478,62,Myiozetetes granadensis,Gray-capped Flycatcher,null,0,null,null
+UTPL_A0478,62,Myiozetetes granadensis,Gray-capped Flycatcher,null,7,null,null
 UTPL_A0479,62,Myiozetetes similis,Social Flycatcher,null,1,null,null
 UTPL_A0480,57,Myrmeciza exsul,Chestnut-backed Antbird,null,1,null,null
 UTPL_A0481,57,Myrmeciza griseiceps,Gray-headed Antbird,null,2,S-SO,null
@@ -418,88 +418,88 @@ UTPL_A0483,57,Myrmeciza nigricauda,Esmeraldas Antbird,Sipia nigricaudata,1,LOcA,
 UTPL_A0484,48,Myrmia micrura,Short-tailed Woodstar,null,1,BT,null
 UTPL_A0485,57,Myrmotherula axillaris,White-flanked Antwren,null,1,null,null
 UTPL_A0486,57,Myrmotherula schisticolor,Slaty Antwren,null,1,null,null
-UTPL_A0487,48,Myrtis fanny,Purple-collared Woodstar,null,0,null,null
-UTPL_A0488,38,Mustelirallus erythrops ,Paint-billed Crake,null,0,null,null
-UTPL_A0489,82,Netta erythrophthalma,Southern Pochard,null,0,null,null
+UTPL_A0487,48,Myrtis fanny,Purple-collared Woodstar,null,7,null,null
+UTPL_A0488,38,Mustelirallus erythrops ,Paint-billed Crake,null,7,null,null
+UTPL_A0489,82,Netta erythrophthalma,Southern Pochard,null,7,null,null
 UTPL_A0490,82,Nomonyx dominicus,Masked Duck,null,1,null,null
-UTPL_A0491,52,Notharchus tectus,Pied Puffbird,null,0,null,null
+UTPL_A0491,52,Notharchus tectus,Pied Puffbird,null,7,null,null
 UTPL_A0492,29,Nothoprocta pentlandii,Andean Tinamou,null,1,null,null
-UTPL_A0493,40,Numenius phaeopus,Whimbrel,null,0,null,MB
+UTPL_A0493,40,Numenius phaeopus,Whimbrel,null,7,null,MB
 UTPL_A0494,34,Nyctanassa violacea,Yellow-crowned Night-Heron,null,1,null,null
 UTPL_A0495,45,Nyctibius griseus,Common Potoo,null,1,null,null
 UTPL_A0496,34,Nycticorax nycticorax,Black-crowned Night-Heron,null,1,null,MB - C ?
 UTPL_A0497,46,Nyctidromus albicollis,Common Pauraque,null,1,null,null
 UTPL_A0498,46,Nyctidromus anthonyi,Scrub Nightjar,null,1,BT,null
 UTPL_A0499,52,Nystalus radiatus,Barred Puffbird,null,1,null,null
-UTPL_A0500,95,Oceanites gracilis,White-vented Storm-Petrel,null,0,null,VP
-UTPL_A0501,95,Oceanites oceanicus,Wilson�s Storm-Petrel,null,0,null,VP - S
-UTPL_A0502,95,Oceanodroma homochroa,Ashy Storm-Petrel,null,0,null,VP - ND 
-UTPL_A0505,95,Oceanodroma melania,Black Storm-Petrel,null,0,null,VP - N 
-UTPL_A0506,95,Oceanodroma tethys,Wedge-rumped Storm-Petrel,null,0,null,VP
+UTPL_A0500,95,Oceanites gracilis,White-vented Storm-Petrel,null,7,null,VP
+UTPL_A0501,95,Oceanites oceanicus,Wilson�s Storm-Petrel,null,7,null,VP - S
+UTPL_A0502,95,Oceanodroma homochroa,Ashy Storm-Petrel,null,7,null,VP - ND 
+UTPL_A0505,95,Oceanodroma melania,Black Storm-Petrel,null,7,null,VP - N 
+UTPL_A0506,95,Oceanodroma tethys,Wedge-rumped Storm-Petrel,null,7,null,VP
 UTPL_A0507,62,Ochthoeca frontalis,Crowned Chat-Tyrant,null,1,null,null
 UTPL_A0508,62,Ochthoeca fumicolor,Brown-backed Chat-Tyrant,null,1,null,null
 UTPL_A0509,62,Ochthoeca jelskii,Jelski�s Chat-Tyrant,Silvicultrix jelskii,1,S-SO,null
-UTPL_A0510,62,Ochthoeca piurae ,Piura Chat-Tyrant ,null,0,null,null
+UTPL_A0510,62,Ochthoeca piurae ,Piura Chat-Tyrant ,null,7,null,null
 UTPL_A0511,62,Ochthoeca rufipectoralis,Rufous-breasted Chat-Tyrant,null,1,null,null
 UTPL_A0512,48,Ocreatus underwoodii,Booted Racket-tail,null,1,null,null
 UTPL_A0513,31,Odontophorus erythrops,Rufous-fronted Wood-Quail,null,1,null,null
 UTPL_A0515,62,Onychorhynchus occidentalis,Pacific Royal-Flycatcher,null,2,BT,null
-UTPL_A0516,85,Oreopholus ruficollis,Tawny-throated Dotterel,null,0,null,null
+UTPL_A0516,85,Oreopholus ruficollis,Tawny-throated Dotterel,null,7,null,null
 UTPL_A0518,62,Ornithion brunneicapillus,Brown-capped Tyrannulet,null,1,null,null
 UTPL_A0519,68,Orochelidon murina,Brown-bellied Swallow,Notiochelidon murina,1,null,null
 UTPL_A0520,30,Ortalis erythroptera,Rufous-headed Chachalaca,null,2,BT - RM,null
-UTPL_A0521,82,Oxyura jamaicensis,Andean Duck,null,0,null,null
+UTPL_A0521,82,Oxyura jamaicensis,Andean Duck,null,7,null,null
 UTPL_A0522,65,Pachyramphus albogriseus,Black-and-white Becard,null,1,null,null
 UTPL_A0523,65,Pachyramphus cinnamomeus,Cinnamon Becard,null,1,null,null
 UTPL_A0524,65,Pachyramphus homochrous,One-colored Becard,null,1,null,null
-UTPL_A0525,65,Pachyramphus polychopterus,White-winged Becard,null,0,null,null
+UTPL_A0525,65,Pachyramphus polychopterus,White-winged Becard,null,7,null,null
 UTPL_A0526,65,Pachyramphus spodiurus,Slaty Becard,null,4,BT,null
 UTPL_A0527,36,Pandion haliaetus,Osprey,null,1,null,MB
 UTPL_A0528,47,Panyptila cayennensis,Lesser Swallow-tailed Swift,null,1,null,null
 UTPL_A0529,37,Parabuteo leucorrhous,White-rumped Hawk,null,1,null,null
 UTPL_A0530,37,Parabuteo unicinctus,Harris� Hawk,null,1,null,null
-UTPL_A0531,38,Pardirallus maculatus,Spotted Rail,null,0,null,null
-UTPL_A0532,38,Pardirallus sanguinolentus,Plumbeous Rail,null,0,null,null
-UTPL_A0533,77,Parkesia noveboracensis,Northern Waterthrush,Seiurus noveboracensis,0,null,null
-UTPL_A0534,98,Passer domesticus,House Sparrow,null,0,null,null
-UTPL_A0535,41,Patagioenas cayennensis,Pale-vented Pigeon,Columba cayannensis,0,null,null
+UTPL_A0531,38,Pardirallus maculatus,Spotted Rail,null,7,null,null
+UTPL_A0532,38,Pardirallus sanguinolentus,Plumbeous Rail,null,7,null,null
+UTPL_A0533,77,Parkesia noveboracensis,Northern Waterthrush,Seiurus noveboracensis,7,null,null
+UTPL_A0534,98,Passer domesticus,House Sparrow,null,7,null,null
+UTPL_A0535,41,Patagioenas cayennensis,Pale-vented Pigeon,Columba cayannensis,7,null,null
 UTPL_A0536,41,Patagioenas fasciata,Band-tailed Pigeon,Columba fasciata,1,null,null
-UTPL_A0537,41,Patagioenas goodsoni,Dusky Pigeon,Columba goodsoni,0,B-Ch,null
+UTPL_A0537,41,Patagioenas goodsoni,Dusky Pigeon,Columba goodsoni,7,B-Ch,null
 UTPL_A0538,41,Patagioenas oenops,Peruvian Pigeon,null,2,RM,null
 UTPL_A0539,41,Patagioenas plumbea,Plumbeous Pigeon,null,1,null,null
-UTPL_A0540,41,Patagioenas speciosa,Scaled Pigeon,Columba speciosa,0,null,null
+UTPL_A0540,41,Patagioenas speciosa,Scaled Pigeon,Columba speciosa,7,null,null
 UTPL_A0541,41,Patagioenas subvinacea,Ruddy Pigeon,Columba subvinacea,2,null,null
 UTPL_A0542,48,Patagona gigas,Giant Hummingbird,null,1,null,null
 UTPL_A0543,88,Pelecanus occidentalis,Brown Pelican,null,1,null,null
-UTPL_A0544,88,Pelecanus thagus,Peruvian Pelican,null,0,null,DP
-UTPL_A0545,30,Penelope albipennis,White-winged guan ,null,0,null,null
+UTPL_A0544,88,Pelecanus thagus,Peruvian Pelican,null,7,null,DP
+UTPL_A0545,30,Penelope albipennis,White-winged guan ,null,7,null,null
 UTPL_A0546,30,Penelope barbata,Bearded Guan,null,2,LVI,null
 UTPL_A0547,30,Penelope purpurascens,Crested Guan,null,1,null,null
 UTPL_A0549,68,Petrochelidon rufocollaris,Chestnut-collared Swallow,null,1,BT,null
 UTPL_A0551,62,Phaeomyias murina,Mouse-colored Tyrannulet,null,1,BT ssp,null
-UTPL_A0552,96,Phaethon aethereus,Red-billed Tropicbird,null,0,null,null
-UTPL_A0553,48,Phaethoris griseogularis,Gray-chinned Hermit,null,0,null,null
+UTPL_A0552,96,Phaethon aethereus,Red-billed Tropicbird,null,7,null,null
+UTPL_A0553,48,Phaethoris griseogularis,Gray-chinned Hermit,null,7,null,null
 UTPL_A0555,48,Phaethornis longirostris,Long-billed Hermit,null,1,BT,null
 UTPL_A0556,48,Phaethornis striigularis,Stripe-throated Hermit,null,1,null,null
 UTPL_A0557,48,Phaethornis syrmatophorus,Tawny-bellied Hermit,null,1,null,null
 UTPL_A0558,48,Phaethornis yaruqui,White-whiskered Hermit,null,1,B-Ch,null
-UTPL_A0559,83,Phalacrocorax bougainvillii,Guanay cormorant,null,0,null,DP - D
+UTPL_A0559,83,Phalacrocorax bougainvillii,Guanay cormorant,null,7,null,DP - D
 UTPL_A0560,83,Phalacrocorax brasilianus,Neotropic Cormorant,null,1,null,null
 UTPL_A0561,83,Phalacrocorax gaimardi,Red-legged Cormorant,null,3,null,null
-UTPL_A0562,40,Phalaropus fulicarius,Red Phalarope,null,0,null,MB - P
-UTPL_A0563,40,Phalaropus lobatus,Red-necked Phalarope,null,0,null,MB
-UTPL_A0564,40,Phalaropus tricolor,Wilson�s Phalarope,Steganopus tricolor ,0,null,MB
+UTPL_A0562,40,Phalaropus fulicarius,Red Phalarope,null,7,null,MB - P
+UTPL_A0563,40,Phalaropus lobatus,Red-necked Phalarope,null,7,null,MB
+UTPL_A0564,40,Phalaropus tricolor,Wilson�s Phalarope,Steganopus tricolor ,7,null,MB
 UTPL_A0565,55,Phalcoboenus megalopterus,Mountain Caracara,null,1,null,null
 UTPL_A0566,49,Pharomachrus antisianus,Crested Quetzal,null,1,null,null
 UTPL_A0567,49,Pharomachrus auriceps,Golden-headed Quetzal,null,1,null,null
 UTPL_A0568,76,Pheucticus chrysogaster,Southern Yellow-Grosbeak,null,1,null,null
-UTPL_A0569,76,Pheucticus ludovicianus,Rose-breasted Grosbeak,null,0,null,MB
-UTPL_A0570,69,Pheugopedius euophrys,Plain-tailed Wren,Thryothorus euophrys,0,null,null
+UTPL_A0569,76,Pheucticus ludovicianus,Rose-breasted Grosbeak,null,7,null,MB
+UTPL_A0570,69,Pheugopedius euophrys,Plain-tailed Wren,Thryothorus euophrys,7,null,null
 UTPL_A0571,69,Pheugopedius mystacalis,Whiskered Wren,Thryothorus mystacalis�,1,null,null
-UTPL_A0572,69,Pheugopedius sclateri,Speckle-breasted Wren,Thryothorus sclateri,0,BT - RM,null
+UTPL_A0572,69,Pheugopedius sclateri,Speckle-breasted Wren,Thryothorus sclateri,7,BT - RM,null
 UTPL_A0573,61,Philydor fuscipenne,Slaty-winged Foliage-gleaner,null,1,null,null
 UTPL_A0574,61,Philydor rufum,Buff-fronted Foliage-gleaner,null,1,null,null
-UTPL_A0575,93,Phoebastria irrorata,Waved Albatross,null,0,null,null
+UTPL_A0575,93,Phoebastria irrorata,Waved Albatross,null,7,null,null
 UTPL_A0576,87,Phoenicopterus chilensis,Chilean Flamingo,null,3,null,DP
 UTPL_A0577,73,Phrygilus alaudinus,Band-tailed Sierra-Finch,null,1,null,null
 UTPL_A0578,73,Phrygilus plebejus,Ash-breasted Sierra-Finch,null,1,null,null
@@ -508,63 +508,63 @@ UTPL_A0580,62,Phyllomyias cinereiceps,Ashy-headed Tyrannulet,null,1,null,null
 UTPL_A0581,62,Phyllomyias griseiceps,Sooty-headed Tyrannulet,null,1,null,null
 UTPL_A0582,62,Phyllomyias nigrocapillus,Black-capped Tyrannulet,null,1,null,null
 UTPL_A0584,62,Phyllomyias uropygialis,Tawny-rumped Tyrannulet,null,1,null,null
-UTPL_A0585,62,Phylloscartes superciliaris,Rufous-browed Tyrannulet,null,0,null,null
-UTPL_A0586,63,Phytotoma raimondii,Peruvian Plantcutter,null,0,null,null
+UTPL_A0585,62,Phylloscartes superciliaris,Rufous-browed Tyrannulet,null,7,null,null
+UTPL_A0586,63,Phytotoma raimondii,Peruvian Plantcutter,null,7,null,null
 UTPL_A0587,42,Piaya cayana,Squirrel Cuckoo,null,1,null,null
 UTPL_A0588,54,Picoides fumigatus,Smoky-brown Woodpecker,Veniliornis fumigatus/Leuconotopicus fumigatus,1,null,null
-UTPL_A0589,54,Piculus leucolaemus,White-throated Woodpecker,null,0,null,null
+UTPL_A0589,54,Piculus leucolaemus,White-throated Woodpecker,null,7,null,null
 UTPL_A0590,54,Picumnus olivaceus,Olivaceous Piculet,null,1,null,null
 UTPL_A0591,54,Picumnus sclateri,Ecuadorian Piculet,null,1,BT,null
-UTPL_A0592,73,Piezorina cinerea,Cinereous Finch,null,0,BT,null
+UTPL_A0592,73,Piezorina cinerea,Cinereous Finch,null,7,BT,null
 UTPL_A0593,56,Pionus chalcopterus,Bronze-winged Parrot,null,1,null,null
-UTPL_A0594,56,Pionus menstruus,Blue-headed Parrot,null,0,null,null
+UTPL_A0594,56,Pionus menstruus,Blue-headed Parrot,null,7,null,null
 UTPL_A0595,56,Pionus sordidus,Red-billed Parrot,null,1,null,null
 UTPL_A0596,56,Pionus tumultuosus,Speckle-faced Parrot,null,1,null,null
 UTPL_A0597,64,Pipra mentalis,Red-capped Manakin,null,1,null,null
-UTPL_A0598,73,Pipraeidea bonariensis,Blue-and-yellow Tanager,Thraupis bonariensis,0,null,null
+UTPL_A0598,73,Pipraeidea bonariensis,Blue-and-yellow Tanager,Thraupis bonariensis,7,null,null
 UTPL_A0599,73,Pipraeidea melanonota,Fawn-breasted Tanager,null,1,null,null
 UTPL_A0600,63,Pipreola arcuata,Barred Fruiteater,null,1,null,null
-UTPL_A0601,63,Pipreola lubomirskii,Black-chested Fruiteater,null,0,LOrA,null
+UTPL_A0601,63,Pipreola lubomirskii,Black-chested Fruiteater,null,7,LOrA,null
 UTPL_A0602,63,Pipreola riefferii,Green-and-black Fruiteater,null,1,null,null
 UTPL_A0603,76,Piranga flava,Hepatic Tanager,null,1,null,MB
 UTPL_A0604,76,Piranga leucoptera,White-winged Tanager,null,1,null,null
 UTPL_A0605,76,Piranga rubra,Summer Tanager,null,1,null,MB
-UTPL_A0607,105,Pittasoma rufopileatum,Rufous-crowned Antpitta,null,0,B-Ch,null
-UTPL_A0608,89,Platalea ajaja,Roseate Spoonbill,null,0,null,null
-UTPL_A0609,62,Platyrinchus coronatus,Golden-crowned Spadebill,null,0,null,null
+UTPL_A0607,105,Pittasoma rufopileatum,Rufous-crowned Antpitta,null,7,B-Ch,null
+UTPL_A0608,89,Platalea ajaja,Roseate Spoonbill,null,7,null,null
+UTPL_A0609,62,Platyrinchus coronatus,Golden-crowned Spadebill,null,7,null,null
 UTPL_A0610,62,Platyrinchus mystaceus,White-throated Spadebill,null,1,null,null
 UTPL_A0611,89,Plegadis ridgwayi,Puna Ibis,null,1,null,null
-UTPL_A0612,85,Pluvialis dominica,American Golden-Plover,null,0,null,MB - P
-UTPL_A0613,85,Pluvialis squatarola,Gray Plover,null,0,null,MB
-UTPL_A0614,86,Podiceps major,Great Grebe,null,0,null,null
-UTPL_A0615,86,Podiceps occipitalis,Silvery Grebe,null,0,null,null
-UTPL_A0616,86,Podilymbus podiceps,Pied-billed Grebe,null,0,null,null
+UTPL_A0612,85,Pluvialis dominica,American Golden-Plover,null,7,null,MB - P
+UTPL_A0613,85,Pluvialis squatarola,Gray Plover,null,7,null,MB
+UTPL_A0614,86,Podiceps major,Great Grebe,null,7,null,null
+UTPL_A0615,86,Podiceps occipitalis,Silvery Grebe,null,7,null,null
+UTPL_A0616,86,Podilymbus podiceps,Pied-billed Grebe,null,7,null,null
 UTPL_A0617,62,Poecilotriccus ruficeps,Rufous-crowned Tody-Flycatcher,null,1,null,null
 UTPL_A0618,70,Polioptila plumbea,Tropical Gnatcatcher,null,1,null,null
 UTPL_A0619,48,Polyonymus caroli,Bronze-tailed Comet,null,1,null,null
 UTPL_A0620,73,Poospiza hispaniolensis,Collared Warbling-Finch,null,1,BT,null
-UTPL_A0622,38,Porphyrio martinicus,Purple Gallinule,null,0,null,null
+UTPL_A0622,38,Porphyrio martinicus,Purple Gallinule,null,7,null,null
 UTPL_A0623,61,Premnoplex brunnescens,Spotted Barbtail,null,1,null,null
-UTPL_A0626,94,Procellaria parkinsoni,Parkinson�s Petrel,null,0,null,VP - S 
+UTPL_A0626,94,Procellaria parkinsoni,Parkinson�s Petrel,null,7,null,VP - S 
 UTPL_A0627,68,Progne chalybea,Gray-breasted Martin,null,1,null,null
 UTPL_A0629,68,Progne subis,Purple Martin,null,1,null,MB - D - P
 UTPL_A0630,68,Progne tapera,Brown-chested Martin,null,1,null,MA - C
 UTPL_A0631,78,Psarocolius angustifrons,Russet-backed Oropendola,null,1,null,null
-UTPL_A0632,78,Psarocolius wagleri,Chestnut-headed Oropendola,Zarinchus wagleri,0,null,null
+UTPL_A0632,78,Psarocolius wagleri,Chestnut-headed Oropendola,Zarinchus wagleri,7,null,null
 UTPL_A0634,37,Pseudastur occidentalis,Gray-backed Hawk,Leucopternis occidentalis,4,BT,null
 UTPL_A0635,62,Pseudelaenia leucospodia,Gray-and-white Tyrannulet,null,1,BT,null
 UTPL_A0636,61,Pseudocolaptes boissonneautii,Streaked Tuftedcheek,null,1,null,null
-UTPL_A0637,61,Pseudocolaptes johnsoni,Pacific Tuftedcheek,null,0,null,null
+UTPL_A0637,61,Pseudocolaptes johnsoni,Pacific Tuftedcheek,null,7,null,null
 UTPL_A0638,43,Pseudoscops clamator,Striped Owl,null,1,null,null
 UTPL_A0639,62,Pseudotriccus pelzelni,Bronze-olive Pygmy-Tyrant,null,1,null,null
 UTPL_A0640,56,Psittacara erythrogenys,Red-masked Parakeet,null,3,BT,null
 UTPL_A0641,56,Psittacara wagleri,Scarlet-fronted Parakeet,Aratinga wagleri,3,null,null
-UTPL_A0642,94,Pterodroma phaeopygia,Dark-rumped Petrel,null,0,null,VP
+UTPL_A0642,94,Pterodroma phaeopygia,Dark-rumped Petrel,null,7,null,VP
 UTPL_A0643,53,Pteroglossus torquatus ,Collared Aracari ,null,1,null,null
 UTPL_A0644,48,Pterophanes cyanopterus,Great Sapphirewing,null,1,null,null
-UTPL_A0645,94,Ardenna creatopus,Pink-footed Shearwater,Puffinus creatopus,0,null,VP - S 
-UTPL_A0646,94,Ardenna grisea,Sooty Shearwater,Puffinus griseus,0,null,VP - S 
-UTPL_A0647,94,Puffinus lherminieri,Audubon�s Shearwater,null,0,null,VP - D 
+UTPL_A0645,94,Ardenna creatopus,Pink-footed Shearwater,Puffinus creatopus,7,null,VP - S 
+UTPL_A0646,94,Ardenna grisea,Sooty Shearwater,Puffinus griseus,7,null,VP - S 
+UTPL_A0647,94,Puffinus lherminieri,Audubon�s Shearwater,null,7,null,VP - D 
 UTPL_A0648,43,Pulsatrix perspicillata,Spectacled Owl,null,1,null,null
 UTPL_A0649,68,Pygochelidon cyanoleuca,Blue-and-white Swallow,Notiochelidon cyanoleuca,1,null,MA - C
 UTPL_A0650,57,Pyriglena leuconota,White-backed Fire-eye,null,1,null,null
@@ -572,21 +572,21 @@ UTPL_A0651,56,Pyrilia pulchra,Rose-faced Parrot,Pionopsitta pulchra,1,B-Ch,null
 UTPL_A0652,62,Pyrocephalus rubinus,Vermilion Flycatcher,null,1,null,MA - C
 UTPL_A0653,62,Pyrrhomyias cinnamomeus,Cinnamon Flycatcher,null,1,null,null
 UTPL_A0654,56,Pyrrhura orcesi,El Oro Parakeet,null,4,S-SO,null
-UTPL_A0655,63,Querula purpurata,Purple-throated Fruitcrow,null,0,null,null
-UTPL_A0656,78,Quiscalus mexicanus,Great-tailed Grackle,null,0,null,null
-UTPL_A0657,38,Rallus longirostris,Clapper Rail,null,0,null,null
+UTPL_A0655,63,Querula purpurata,Purple-throated Fruitcrow,null,7,null,null
+UTPL_A0656,78,Quiscalus mexicanus,Great-tailed Grackle,null,7,null,null
+UTPL_A0657,38,Rallus longirostris,Clapper Rail,null,7,null,null
 UTPL_A0658,53,Ramphastos ambiguus,Yellow-throated Toucan,null,3,null,null
 UTPL_A0659,53,Ramphastos brevis,Choc� Toucan,null,1,B-Ch,null
-UTPL_A0660,70,Ramphocaenus melanurus,Long-billed Gnatwren,null,0,null,null
+UTPL_A0660,70,Ramphocaenus melanurus,Long-billed Gnatwren,null,7,null,null
 UTPL_A0664,73,Rhodospingus cruentus,Crimson-breasted Finch,null,1,BT,MI
-UTPL_A0665,62,Rhynchocyclus pacificus,Pacific Flatbill,null,0,B-Ch,null
-UTPL_A0666,31,Rhynchortyx cinctus,Tawny-faced Quail,null,0,null,null
+UTPL_A0665,62,Rhynchocyclus pacificus,Pacific Flatbill,null,7,B-Ch,null
+UTPL_A0666,31,Rhynchortyx cinctus,Tawny-faced Quail,null,7,null,null
 UTPL_A0667,75,Rhynchospiza stolzmanni,Tumbes Sparrow,Aimophila stolzmanni,1,BT,null
-UTPL_A0668,62,Rhytipterna holerythra,Rufous Mourner,null,0,null,null
-UTPL_A0669,68,Riparia riparia,Bank Swallow,null,0,null,MB - P
+UTPL_A0668,62,Rhytipterna holerythra,Rufous Mourner,null,7,null,null
+UTPL_A0669,68,Riparia riparia,Bank Swallow,null,7,null,MB - P
 UTPL_A0670,37,Rostrhamus sociabilis,Snail Kite,null,1,null,null
 UTPL_A0672,37,Rupornis magnirostris,Roadside Hawk,Bueteo magnirostris,1,null,null
-UTPL_A0673,102,Rynchops niger,Black Skimmer,null,0,null,null
+UTPL_A0673,102,Rynchops niger,Black Skimmer,null,7,null,null
 UTPL_A0674,74,Saltator atripennis,Black-winged Saltator,null,1,null,null
 UTPL_A0675,76,Saltator aurantiirostris,Golden-billed Saltator,null,1,null,null
 UTPL_A0677,74,Saltator grossus,Slate-colored Grosbeak,Pitillus grossus,1,null,null
@@ -598,72 +598,72 @@ UTPL_A0682,82,Sarkidiornis melanotos,Comb Duck,null,1,null,null
 UTPL_A0683,62,Sayornis nigricans,Black Phoebe,null,1,null,null
 UTPL_A0684,65,Schiffornis turdina,Thrush-like Schiffornis,Schiffornis turdinus,1,null,null
 UTPL_A0685,48,Schistes geoffroyi,Wedge-billed Hummingbird,null,1,null,null
-UTPL_A0686,61,Sclerurus guatemalensis,Scaly-throated Leaftosser,null,0,null,null
-UTPL_A0687,61,Sclerurus mexicanus,Tawny-throated Leaftosser,null,0,null,null
+UTPL_A0686,61,Sclerurus guatemalensis,Scaly-throated Leaftosser,null,7,null,null
+UTPL_A0687,61,Sclerurus mexicanus,Tawny-throated Leaftosser,null,7,null,null
 UTPL_A0688,81,Scytalopus latrans,Blackish Tapaculo,null,1,null,null
-UTPL_A0691,81,Scytalopus robbinsi,Ecuadorian Tapaculo,null,0,S-SO,null
+UTPL_A0691,81,Scytalopus robbinsi,Ecuadorian Tapaculo,null,7,S-SO,null
 UTPL_A0692,81,Scytalopus unicolor,Unicolored Tapaculo,null,1,null,null
 UTPL_A0694,62,Serpophaga cinerea,Torrent Tyrannulet,null,1,null,null
-UTPL_A0695,77,Setophaga castanea,Bay-breasted Warbler,null,0,null,MB - D
-UTPL_A0696,77,Setophaga fusca,Blackburnian Warbler,Dendroica fusca,0,null,MB
-UTPL_A0697,77,Setophaga petechia,Yellow Warbler,null,0,null,MB
-UTPL_A0698,77,Setophaga pitiayumi,Tropical Parula,Parula pitiayumi,0,null,null
-UTPL_A0699,77,Setophaga ruticilla,American Redstart,null,0,null,MB
+UTPL_A0695,77,Setophaga castanea,Bay-breasted Warbler,null,7,null,MB - D
+UTPL_A0696,77,Setophaga fusca,Blackburnian Warbler,Dendroica fusca,7,null,MB
+UTPL_A0697,77,Setophaga petechia,Yellow Warbler,null,7,null,MB
+UTPL_A0698,77,Setophaga pitiayumi,Tropical Parula,Parula pitiayumi,7,null,null
+UTPL_A0699,77,Setophaga ruticilla,American Redstart,null,7,null,MB
 UTPL_A0700,73,Sicalis flaveola,Saffron Finch,null,1,null,null
 UTPL_A0701,73,Sicalis luteola,Grassland Yellow-Finch,null,1,null,null
 UTPL_A0702,73,Sicalis taczanowskii,Sulphur-throated Finch,null,1,BT,null
-UTPL_A0703,62,Sirystes albogriseus,Choco Sirystes,null,0,null,null
+UTPL_A0703,62,Sirystes albogriseus,Choco Sirystes,null,7,null,null
 UTPL_A0704,61,Sittasomus griseicapillus,Olivaceous Woodcreeper,null,1,null,null
 UTPL_A0706,37,Spizaetus ornatus,Ornate Hawk-Eagle,null,3,null,null
 UTPL_A0707,37,Spizaetus tyrannus,Black Hawk-Eagle,null,1,null,null
 UTPL_A0708,79,Sporagra magellanica,Hooded Siskin,Carduelis magellanica,1,null,null
 UTPL_A0709,79,Sporagra siemiradzkii,Saffron Siskin,Carduelis siemiradzkii,2,BT,null
-UTPL_A0710,79,Sporagra xanthrogastra,Yellow-bellied Siskin,null,0,null,null
-UTPL_A0711,73,Sporophila angolensis,Lesser Seed-Finch,null,0,null,null
-UTPL_A0712,73,Sporophila bouvronides,Lesson�s Seedeater,null,0,null,MI
+UTPL_A0710,79,Sporagra xanthrogastra,Yellow-bellied Siskin,null,7,null,null
+UTPL_A0711,73,Sporophila angolensis,Lesser Seed-Finch,null,7,null,null
+UTPL_A0712,73,Sporophila bouvronides,Lesson�s Seedeater,null,7,null,MI
 UTPL_A0713,73,Sporophila corvina,Variable Seedeater,null,1,null,null
 UTPL_A0714,73,Sporophila luctuosa,Black-and-white Seedeater,null,1,null,MI
 UTPL_A0715,73,Sporophila nigricollis,Yellow-bellied Seedeater,null,1,null,null
 UTPL_A0716,73,Sporophila peruviana,Parrot-billed Seedeater,null,1,BT,null
-UTPL_A0717,73,Sporophila simplex,Drab Seedeater,null,0,S-SO,null
-UTPL_A0718,73,Sporophila telasco,Chestnut-throated Seedeater,null,0,null,null
+UTPL_A0717,73,Sporophila simplex,Drab Seedeater,null,7,S-SO,null
+UTPL_A0718,73,Sporophila telasco,Chestnut-throated Seedeater,null,7,null,null
 UTPL_A0719,44,Steatornis caripensis,Oilbird,null,1,null,null
 UTPL_A0720,68,Stelgidopteryx ruficollis,Southern Rough-winged Swallow,null,1,null,null
-UTPL_A0723,92,Sterna hirundinacea,South American Tern,null,0,null,DP - D
-UTPL_A0724,92,Sterna hirundo,Common Tern,null,0,null,MB
-UTPL_A0725,92,Sterna paradisaea,Arctic Tern,null,0,null,MB - P
-UTPL_A0726,92,Sternula lorata,Peruvian Tern,null,0,null,DP
+UTPL_A0723,92,Sterna hirundinacea,South American Tern,null,7,null,DP - D
+UTPL_A0724,92,Sterna hirundo,Common Tern,null,7,null,MB
+UTPL_A0725,92,Sterna paradisaea,Arctic Tern,null,7,null,MB - P
+UTPL_A0726,92,Sternula lorata,Peruvian Tern,null,7,null,DP
 UTPL_A0727,47,Streptoprocne rutila,Chestnut-collared Swift,null,1,null,null
 UTPL_A0728,47,Streptoprocne zonaris,White-collared Swift,null,1,null,null
 UTPL_A0729,78,Sturnella bellicosa,Peruvian Meadowlark,null,1,null,null
-UTPL_A0730,97,Sula granti,Nazca Booby,null,0,null,null
-UTPL_A0731,97,Sula leucogaster,Brown Booby,null,0,null,VP - N D
-UTPL_A0732,97,Sula nebouxii,Blue-footed Booby,null,0,null,null
-UTPL_A0733,97,Sula sula,Red-footed Booby,null,0,null,null
-UTPL_A0734,97,Sula variegata,Peruvian Booby,null,0,null,DP
+UTPL_A0730,97,Sula granti,Nazca Booby,null,7,null,null
+UTPL_A0731,97,Sula leucogaster,Brown Booby,null,7,null,VP - N D
+UTPL_A0732,97,Sula nebouxii,Blue-footed Booby,null,7,null,null
+UTPL_A0733,97,Sula sula,Red-footed Booby,null,7,null,null
+UTPL_A0734,97,Sula variegata,Peruvian Booby,null,7,null,DP
 UTPL_A0735,61,Synallaxis azarae,Azara�s Spinetail,null,1,null,null
 UTPL_A0736,61,Synallaxis brachyura,Slaty Spinetail,null,1,null,null
-UTPL_A0737,61,Synallaxis stictothorax,Necklaced Spinetail,null,0,BT,null
+UTPL_A0737,61,Synallaxis stictothorax,Necklaced Spinetail,null,7,BT,null
 UTPL_A0738,61,Synallaxis tithys,Blackish-headed Spinetail,null,4,BT,null
-UTPL_A0739,61,Synallaxis zimmeri,Russet-bellied Spinetail,null,0,null,null
+UTPL_A0739,61,Synallaxis zimmeri,Russet-bellied Spinetail,null,7,null,null
 UTPL_A0740,61,Syndactyla ruficollis,Rufous-necked Foliage-gleaner,null,2,S-SO,null
 UTPL_A0741,61,Syndactyla rufosuperciliata,Buff-browed Foliage-gleaner,null,1,null,null
 UTPL_A0742,61,Syndactyla subalaris,Lineated Foliage-gleaner,null,1,null,null
 UTPL_A0743,46,Systellura longirostris,Band-winged Nightjar,Caprimulgus longirostris,1,null,null
 UTPL_A0744,86,Tachybaptus dominicus,Least Grebe,null,1,null,null
-UTPL_A0745,68,Tachycineta stolzmanni,Tumbes Swallow,null,0,BT,null
-UTPL_A0746,73,Tachyphonus delatrii,Tawny-crested Tanager,null,0,null,null
+UTPL_A0745,68,Tachycineta stolzmanni,Tumbes Swallow,null,7,BT,null
+UTPL_A0746,73,Tachyphonus delatrii,Tawny-crested Tanager,null,7,null,null
 UTPL_A0747,73,Tachyphonus luctuosus,White-shouldered Tanager,null,1,null,null
 UTPL_A0748,73,Tachyphonus rufus,White-lined Tanager,null,1,null,null
 UTPL_A0749,73,Tangara arthus,Golden Tanager,null,1,null,null
 UTPL_A0751,73,Tangara cyanicollis,Blue-necked Tanager,null,1,null,null
-UTPL_A0752,73,Tangara florida,Emerald Tanager,null,0,null,null
+UTPL_A0752,73,Tangara florida,Emerald Tanager,null,7,null,null
 UTPL_A0753,73,Tangara gyrola,Bay-headed Tanager,null,1,null,null
 UTPL_A0754,73,Tangara icterocephala,Silvery-throated Tanager,null,1,null,null
-UTPL_A0755,73,Tangara johannae,Blue-whiskered Tanager,null,0,B-Ch,null
-UTPL_A0756,73,Tangara larvata,Golden-hooded Tanager,null,0,null,null
+UTPL_A0755,73,Tangara johannae,Blue-whiskered Tanager,null,7,B-Ch,null
+UTPL_A0756,73,Tangara larvata,Golden-hooded Tanager,null,7,null,null
 UTPL_A0757,73,Tangara nigroviridis,Beryl-spangled Tanager,null,1,null,null
-UTPL_A0758,73,Tangara palmeri,Gray-and-gold Tanager,null,0,LOcA,null
+UTPL_A0758,73,Tangara palmeri,Gray-and-gold Tanager,null,7,LOcA,null
 UTPL_A0759,73,Tangara parzudakii,Flame-faced Tanager,null,1,null,null
 UTPL_A0760,73,Tangara ruficervix,Golden-naped Tanager,null,1,null,null
 UTPL_A0761,73,Tangara rufigula,Rufous-throated Tanager,null,1,LOcA,null
@@ -671,20 +671,20 @@ UTPL_A0762,73,Tangara vassorii,Blue-and-black Tanager,null,1,null,null
 UTPL_A0763,73,Tangara viridicollis,Silvery Tanager,null,1,null,null
 UTPL_A0765,42,Tapera naevia,Striped Cuckoo,null,1,null,null
 UTPL_A0766,57,Taraba major,Great Antshrike,null,1,null,null
-UTPL_A0767,62,Terenotriccus erythrurus,Ruddy-tailed Flycatcher,null,0,null,null
+UTPL_A0767,62,Terenotriccus erythrurus,Ruddy-tailed Flycatcher,null,7,null,null
 UTPL_A0768,73,Tersina viridis,Swallow Tanager,null,1,null,null
-UTPL_A0769,92,Thalasseus  sandvicensis,Sandwich Tern,null,0,null,MB
-UTPL_A0770,92,Thalasseus elegans,Elegant Tern,null,0,null,MB - D
-UTPL_A0771,92,Thalasseus maximus,Royal Tern,null,0,null,null
+UTPL_A0769,92,Thalasseus  sandvicensis,Sandwich Tern,null,7,null,MB
+UTPL_A0770,92,Thalasseus elegans,Elegant Tern,null,7,null,MB - D
+UTPL_A0771,92,Thalasseus maximus,Royal Tern,null,7,null,null
 UTPL_A0772,48,Thalurania colombica,Green-crowned Woodnymph,Thalurania fannyi,1,BT,null
 UTPL_A0773,59,Grallaria andicolus,Stripe-headed Antpitta,null,1,null,null
 UTPL_A0774,57,Thamnistes anabatinus,Russet Antshrike,null,1,null,null
 UTPL_A0775,57,Thamnophilus atrinucha,Black-crowned Antshrike,null,1,null,null
-UTPL_A0776,57,Thamnophilus bernardi,Collared Antshrike,Sakesporus bernardi,0,BT,null
+UTPL_A0776,57,Thamnophilus bernardi,Collared Antshrike,Sakesporus bernardi,7,BT,null
 UTPL_A0778,57,Thamnophilus unicolor,Uniform Antshrike,null,1,null,null
 UTPL_A0779,57,Thamnophilus zarumae,'Chapman''s Antshrike',null,1,S-SO,null
-UTPL_A0780,48,Thaumastura cora,Peruvian Sheartail,null,0,null,Errs
-UTPL_A0782,101,Thinocorus rumicivorus,Least Seedsnipe,null,0,null,null
+UTPL_A0780,48,Thaumastura cora,Peruvian Sheartail,null,7,null,Errs
+UTPL_A0782,101,Thinocorus rumicivorus,Least Seedsnipe,null,7,null,null
 UTPL_A0784,73,Thlypopsis ornata,Rufous-chested Tanager,null,1,null,null
 UTPL_A0785,73,Thraupis cyanocephala,Blue-capped Tanager,null,1,null,null
 UTPL_A0786,73,Thraupis episcopus,Blue-gray Tanager,null,1,null,null
@@ -693,32 +693,32 @@ UTPL_A0788,48,Threnetes ruckeri,Band-tailed Barbthroat,null,1,null,null
 UTPL_A0790,61,Thripadectes ignobilis,Uniform Treehunter,null,1,LOcA,null
 UTPL_A0792,73,Tiaris obscurus,Dull-colored Grassquit,null,1,null,null
 UTPL_A0793,34,Tigrisoma fasciatum,Fasciated Tiger-Heron,null,1,null,null
-UTPL_A0794,34,Tigrisoma lineatum,Rufescent Tiger-Heron,null,0,null,null
-UTPL_A0795,29,Tinamus major,Great Tinamou,null,0,null,null
-UTPL_A0796,65,Tityra inquisitor,Black-crowned Tityra,null,0,null,null
+UTPL_A0794,34,Tigrisoma lineatum,Rufescent Tiger-Heron,null,7,null,null
+UTPL_A0795,29,Tinamus major,Great Tinamou,null,7,null,null
+UTPL_A0796,65,Tityra inquisitor,Black-crowned Tityra,null,7,null,null
 UTPL_A0797,65,Tityra semifasciata,Masked Tityra,null,1,null,null
 UTPL_A0798,62,Todirostrum cinereum,Common Tody-Flycatcher,null,1,null,null
 UTPL_A0799,62,Todirostrum nigriceps,Black-headed Tody-Flycatcher,null,1,null,null
 UTPL_A0800,62,Tolmomyias sulphurescens,Yellow-olive Flycatcher,null,1,null,null
 UTPL_A0801,56,Touit dilectissimus,Blue-fronted Parrotlet,null,1,null,null
 UTPL_A0802,40,Tringa flavipes,Lesser Yellowlegs,null,1,null,MB
-UTPL_A0803,40,Tringa incana,Wandering Tattler,Heteroscelus incanus,0,null,MB
-UTPL_A0804,40,Tringa melanoleuca,Greater Yellowlegs,null,0,null,MB
-UTPL_A0805,40,Tringa semipalmata,Willet,null,0,null,MB
+UTPL_A0803,40,Tringa incana,Wandering Tattler,Heteroscelus incanus,7,null,MB
+UTPL_A0804,40,Tringa melanoleuca,Greater Yellowlegs,null,7,null,MB
+UTPL_A0805,40,Tringa semipalmata,Willet,null,7,null,MB
 UTPL_A0806,40,Tringa solitaria,Solitary Sandpiper,null,1,null,MB
 UTPL_A0807,69,Troglodytes aedon,House-Wren,null,1,null,null
 UTPL_A0808,69,Troglodytes solstitialis,Mountain Wren,null,1,null,null
 UTPL_A0809,49,Trogon caligatus,Gartered Trogon,null,1,null,null
 UTPL_A0810,49,Trogon collaris,Collared Trogon,null,1,null,null
-UTPL_A0811,49,Trogon comptus,Choc� Trogon / Blue tailed trogon,null,0,B-Ch,null
+UTPL_A0811,49,Trogon comptus,Choc� Trogon / Blue tailed trogon,null,7,B-Ch,null
 UTPL_A0812,49,Trogon melanurus,Black-tailed Trogon,null,1,null,null
 UTPL_A0813,49,Trogon mesurus,Ecuadorian Trogon,null,1,BT,null
 UTPL_A0814,49,Trogon personatus,Masked Trogon,null,1,null,null
-UTPL_A0815,49,Trogon rufus,Black-throated Trogon,null,0,null,null
-UTPL_A0816,49,Trogon violaceus,Amazonian Violaceous Trogon,null,0,null,null
-UTPL_A0817,49,Trogon viridis,Amazonian White-tailed Trogon,null,0,null,null
+UTPL_A0815,49,Trogon rufus,Black-throated Trogon,null,7,null,null
+UTPL_A0816,49,Trogon violaceus,Amazonian Violaceous Trogon,null,7,null,null
+UTPL_A0817,49,Trogon viridis,Amazonian White-tailed Trogon,null,7,null,null
 UTPL_A0818,62,Tumbezia salvini,Tumbes Tyrant,null,3,null,null
-UTPL_A0819,72,Turdus albicollis,White-necked Thrush,null,0,null,null
+UTPL_A0819,72,Turdus albicollis,White-necked Thrush,null,7,null,null
 UTPL_A0820,72,Turdus chiguanco,Chiguanco Thrush,null,1,null,null
 UTPL_A0821,72,Turdus fuscater,Great Thrush,null,1,null,null
 UTPL_A0823,72,Turdus maculirostris,Ecuadorian Thrush,null,1,BT,null
@@ -726,7 +726,7 @@ UTPL_A0824,72,Turdus nigriceps,Slaty Thrush,null,1,null,MA - C / MI
 UTPL_A0825,72,Turdus obsoletus,Pale-vented Thrush,null,1,null,null
 UTPL_A0826,72,Turdus reevei,Plumbeous-backed Thrush,null,1,BT,null
 UTPL_A0827,72,Turdus serranus,Glossy-black Thrush,null,1,null,null
-UTPL_A0828,62,Tyrannulus elatus,Yellow-crowned Tyrannulet,null,0,null,null
+UTPL_A0828,62,Tyrannulus elatus,Yellow-crowned Tyrannulet,null,7,null,null
 UTPL_A0829,62,Tyrannus melancholicus,Tropical Kingbird,null,1,null,MA ? C
 UTPL_A0830,62,Tyrannus niveigularis,Snowy-throated Kingbird,null,1,BT,MI
 UTPL_A0831,80,Tyto alba,Barn Owl,null,1,null,null
@@ -736,53 +736,53 @@ UTPL_A0835,54,Veniliornis callonotus,Scarlet-backed Woodpecker,null,1,BT,null
 UTPL_A0836,54,Veniliornis kirkii,Red-rumped Woodpecker,null,1,null,null
 UTPL_A0837,66,Vireo leucophrys,Brown-capped Vireo,null,1,null,null
 UTPL_A0838,66,Vireo olivaceus,Red-eyed Vireo,null,1,null,MB - C / MA - C
-UTPL_A0839,66,Vireolanius leucotis,Slaty-capped Shrike-Vireo,null,0,null,null
+UTPL_A0839,66,Vireolanius leucotis,Slaty-capped Shrike-Vireo,null,7,null,null
 UTPL_A0840,73,Volatinia jacarina,Blue-black Grassquit,null,1,null,null
-UTPL_A0843,61,Xenops minutus,Plain Xenops,null,0,null,null
+UTPL_A0843,61,Xenops minutus,Plain Xenops,null,7,null,null
 UTPL_A0844,61,Xenops rutilans,Streaked Xenops,null,1,null,null
 UTPL_A0846,61,Xiphocolaptes promeropirhynchus,Strong-billed Woodcreeper,null,1,null,null
 UTPL_A0847,61,Xiphorhynchus erythropygius,Spotted Woodcreeper,null,1,null,null
-UTPL_A0848,61,Xiphorhynchus lachrymosus,Black-striped Woodcreeper,null,0,null,null
+UTPL_A0848,61,Xiphorhynchus lachrymosus,Black-striped Woodcreeper,null,7,null,null
 UTPL_A0850,41,Zenaida auriculata,Eared Dove,null,1,null,null
 UTPL_A0851,41,Zenaida meloda,West Peruvian Dove,null,1,null,null
 UTPL_A0852,62,Zimmerius chrysops,Golden-faced Tyrannulet,null,1,null,null
-UTPL_A0853,62,Zimmerius flavidifrons,Loja Tyrannulet,null,0,null,null
-UTPL_A0854,62,Zimmerius viridiflavus,Peruvian Tyrannulet,null,0,null,null
+UTPL_A0853,62,Zimmerius flavidifrons,Loja Tyrannulet,null,7,null,null
+UTPL_A0854,62,Zimmerius viridiflavus,Peruvian Tyrannulet,null,7,null,null
 UTPL_A0855,75,Zonotrichia capensis,Rufous-collared Sparrow,null,1,null,null
-UTPL_A0856,40,Calidris alba,Sanderling,null,0,null,MB
+UTPL_A0856,40,Calidris alba,Sanderling,null,7,null,MB
 UTPL_A0857,81,Acropternis orthonyx,Ocellated Tapaculo,null,1,null,null
 UTPL_A0859,62,Agriornis montanus,Black-billed Shrike-Tyrant,null,1,null,null
 UTPL_A0860,56,Amazona mercenarius,Scaly-naped Parrot,null,1,null,null
 UTPL_A0861,62,Anairetes flavirostris,Yellow-billed Tit-Tyrant,null,1,null,null
-UTPL_A0862,110,Anhima cornuta,Horned Screamer,null,0,null,null
-UTPL_A0863,108,Anhinga anhinga,Anhinga,null,0,null,null
+UTPL_A0862,110,Anhima cornuta,Horned Screamer,null,7,null,null
+UTPL_A0863,108,Anhinga anhinga,Anhinga,null,7,null,null
 UTPL_A0864,73,Anisognathus somptuosus,Blue-winged Mountain-Tanager,null,1,null,null
 UTPL_A0865,73,Anisognathus lacrymosus,Lacrimose Mountain-Tanager,null,1,null,null
 UTPL_A0867,106,Anthus lutescens ,Yellowish Pipit,null,1,null,null
 UTPL_A0869,56,Bolborhynchus orbygnesius,Andean Parakeet,null,1,null,null
 UTPL_A0870,78,Cacicus chrysonotus,Mountain Cacique,null,1,null,null
-UTPL_A0871,40,Calidris alpina,Dunlin,null,0,null,MB - D
+UTPL_A0871,40,Calidris alpina,Dunlin,null,7,null,MB - D
 UTPL_A0872,48,Metallura phoebe,Black Metaltail,null,1,null,null
-UTPL_A0873,73,Chlorospingus flavopectus,Common Chlorospingus,null,0,null,null
+UTPL_A0873,73,Chlorospingus flavopectus,Common Chlorospingus,null,7,null,null
 UTPL_A0874,73,Cnemoscopus rubrirostris,Gray-hooded Bush Tanager,null,1,null,null
-UTPL_A0875,42,Coccyzus americanus,Yellow-billed cuckoo,null,0,null,MB - P
+UTPL_A0875,42,Coccyzus americanus,Yellow-billed cuckoo,null,7,null,MB - P
 UTPL_A0876,48,Coeligena wilsoni,Brown Inca,null,1,null,null
 UTPL_A0877,54,Colaptes atricollis,Black-necked Woodpecker,null,1,null,null
 UTPL_A0878,54,Colaptes rivolii,Crimson-mantled Woodpecker,null,1,null,null
 UTPL_A0879,73,Conirostrum albifrons,Capped Conebill,null,1,null,null
-UTPL_A0880,92,Creagrus furcatus,Swallow-tailed Gull,null,0,null,VP
-UTPL_A0881,82,Dendrocygna bicolor,Fulvous Whistling-Duck,null,0,null,null
+UTPL_A0880,92,Creagrus furcatus,Swallow-tailed Gull,null,7,null,VP
+UTPL_A0881,82,Dendrocygna bicolor,Fulvous Whistling-Duck,null,7,null,null
 UTPL_A0883,73,Dubusia taeniata,Buff-breasted Mountain-Tanager,null,1,null,null
 UTPL_A0884,86,Rollandia rolland,White-tufted Grebe,null,1,null,null
 UTPL_A0885,107,Pelecanoides garnotii,Peruvian Diving-Petrel,null,4,null,null
 UTPL_A0886,37,Spizaetus isidori ,Black-and-chestnut Eagle,null,4,null,null
-UTPL_A0887,37,Elanus leucurus,White-tailed Kite,null,0,null,null
+UTPL_A0887,37,Elanus leucurus,White-tailed Kite,null,7,null,null
 UTPL_A0888,38,Laterallus exilis,Gray-breasted Crake,null,1,null,null
 UTPL_A0891,85,Vanellus cayanus,Pied Lapwing,null,1,null,null
 UTPL_A0892,40,Limosa fedoa,Marbled Godwit,null,1,null,MB - D
 UTPL_A0893,92,Onychoprion anaethetus,Bridled Tern,null,1,null,null
-UTPL_A0894,41,Leptotila rufaxilla,Gray-fronted Dove,null,0,null,null
-UTPL_A0895,42,Coccyzus melacoryphus,Dark-billed Cuckoo,null,0,null,MA - C
+UTPL_A0894,41,Leptotila rufaxilla,Gray-fronted Dove,null,7,null,null
+UTPL_A0895,42,Coccyzus melacoryphus,Dark-billed Cuckoo,null,7,null,MA - C
 UTPL_A0896,48,Lesbia victoriae,Black-tailed Trainbearer,null,1,null,null
 UTPL_A0897,48,Colibri thalassinus,Green Violetear,null,1,null,null
 UTPL_A0898,48,Rhodopis vesper,Oasis Hummingbird,null,1,null,null
@@ -790,12 +790,12 @@ UTPL_A0899,48,Leucippus taczanowskii,Spot-throated Hummingbird,null,1,null,null
 UTPL_A0900,48,Metallura williami,Viridian Metaltail,null,1,null,null
 UTPL_A0901,48,Heliodoxa imperatrix,Empress Brilliant,null,1,null,null
 UTPL_A0902,49,Trogon chionurus,White-tailed Trogon,null,1,null,null
-UTPL_A0903,52,Notharchus hyperrhynchus,White-necked Puffbird,null,0,null,null
+UTPL_A0903,52,Notharchus hyperrhynchus,White-necked Puffbird,null,7,null,null
 UTPL_A0905,54,Veniliornis nigriceps ,Bar-bellied Woodpecker,null,1,null,null
 UTPL_A0906,111,Semnornis ramphastinus,Toucan Barbet,null,3,null,null
 UTPL_A0907,55,Phalcoboenus carunculatus,Carunculated Caracara,null,1,null,null
 UTPL_A0908,57,Gymnopithys leucaspis,White-cheeked Antbird,null,1,null,null
-UTPL_A0909,57,Myrmeciza zeledoni,'Zeledon''s Antbird',null,0,null,null
+UTPL_A0909,57,Myrmeciza zeledoni,'Zeledon''s Antbird',null,7,null,null
 UTPL_A0910,57,Myrmotherula pacifica,Pacific Antwren,null,1,null,null
 UTPL_A0911,81,Myornis senilis ,Ash-colored Tapaculo,null,1,null,null
 UTPL_A0912,81,Scytalopus parkeri,Chusquea Tapaculo,null,1,LOrA,null
@@ -806,7 +806,7 @@ UTPL_A0916,61,Furnarius torridus,Pale-billed Hornero,null,1,null,null
 UTPL_A0917,61,Synallaxis unirufa,Rufous Spinetail,null,1,null,null
 UTPL_A0918,61,Phleocryptes melanops ,Wren-like Rushbird,null,1,null,null
 UTPL_A0919,62,Zimmerius albigularis,Choco Tyrannulet,null,1,null,null
-UTPL_A0920,62,Tyrannus tyrannus,Eastern Kingbird,null,0,null,MB - P
+UTPL_A0920,62,Tyrannus tyrannus,Eastern Kingbird,null,7,null,MB - P
 UTPL_A0921,62,Tachuris rubrigastra,Many-colored Rush Tyrant,null,1,null,null
 UTPL_A0922,62,Nephelomyias lintoni,Orange-banded Flycatcher,null,3,null,null
 UTPL_A0923,62,Onychorhynchus coronatus,Royal Flycatcher,null,1,null,null
@@ -816,17 +816,17 @@ UTPL_A0927,62,Myiobius sulphureipygius,Sulphur-rumped Flycatcher,null,1,null,nul
 UTPL_A0928,62,Knipolegus aterrimus,White-winged Black-Tyrant,null,1,null,null
 UTPL_A0929,62,Ochthoeca cinnamomeiventris,Slaty-backed Chat-Tyrant,null,1,null,null
 UTPL_A0930,65,Pachyramphus versicolor,Barred Becard,null,1,null,null
-UTPL_A0931,65,Schiffornis veraepacis ,Northern Schiffornis,null,0,null,null
-UTPL_A0932,65,Pachyramphus aglaiae,Rose-throated Becard,null,0,null,null
+UTPL_A0931,65,Schiffornis veraepacis ,Northern Schiffornis,null,7,null,null
+UTPL_A0932,65,Pachyramphus aglaiae,Rose-throated Becard,null,7,null,null
 UTPL_A0933,72,Turdus maranonicus,Mara�on Thrush,null,1,null,null
 UTPL_A0935,73,Hemispingus atropileus,Black-capped Hemispingus,null,1,null,null
 UTPL_A0937,73,Ramphocelus flammigerus,Lemon-rumped Tanager,null,1,null,null
-UTPL_A0940,75,Sporophila americana,Wing-barred Seedeater,null,0,null,null
-UTPL_A0942,78,Sturnella militaris,Red-breasted Meadowlark,null,0,null,null
-UTPL_A0944,75,Sporophila crassirostris,Large-billed Seed-Finch,null,0,null,null
+UTPL_A0940,75,Sporophila americana,Wing-barred Seedeater,null,7,null,null
+UTPL_A0942,78,Sturnella militaris,Red-breasted Meadowlark,null,7,null,null
+UTPL_A0944,75,Sporophila crassirostris,Large-billed Seed-Finch,null,7,null,null
 UTPL_A0946,75,Phrygilus fruticeti,Mourning Sierra-Finch,null,1,null,null
 UTPL_A0947,75,Phrygilus punensis,Peruvian Sierra-Finch,null,1,null,null
-UTPL_A0948,79,Spinus magellanicus,Hooded Siskin,null,0,null,null
-UTPL_A0950,75,Sporophila funerea,Thick-billed Seed-Finch,null,0,null,null
-UTPL_A0951,77,Myiothlypis luteoviridis,Citrine Warbler,null,0,null,null
-UTPL_A0952,77,Geothlypis auricularis,null,null,0,null,null
+UTPL_A0948,79,Spinus magellanicus,Hooded Siskin,null,7,null,null
+UTPL_A0950,75,Sporophila funerea,Thick-billed Seed-Finch,null,7,null,null
+UTPL_A0951,77,Myiothlypis luteoviridis,Citrine Warbler,null,7,null,null
+UTPL_A0952,77,Geothlypis auricularis,null,null,7,null,null
