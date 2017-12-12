@@ -20,6 +20,8 @@ class Autor(models.Model):
     class Meta:
         managed = False
         db_table = 'autor'
+    def __unicode__(self):
+        return "%s - %s -%s" % (self.id_autor, self.nombre_autor, self.bibliografia)
 
 
 class Avistamiento(models.Model):
@@ -46,6 +48,8 @@ class Avistamiento(models.Model):
     class Meta:
         managed = False
         db_table = 'avistamiento'
+    def __unicode__(self):
+        return "%s - %s -%s -%s -%s -%s -% s-%s -%s -%s -%s -%s -%s -%s -%s -%s -%s -%s -%s" % (self.id_avistamiento, self.id_especie, self.id_ubicacion,self.anio_recoleccion,self.anio_publicacion,self.ecosistema,self.comportamiento,self.llamado,self.ecologia,self.id_autor, self.tipo_recurso, self.morfometria,self.localidad,self.altitud,self.latitud,self.longitud,self.min_altitud,self.max_altitud,self.sitio)
 
 
 class Especie(models.Model):
@@ -62,6 +66,8 @@ class Especie(models.Model):
     class Meta:
         managed = False
         db_table = 'especie'
+    def __unicode__(self):
+        return "%s - %s -%s -%s -%s -%s -%s -%s -%s " % (self.id_especie, self.codigo_especie, self.familia,self.especie,self.nombre,self.sinonimo,self.uicn,self.endemismo,self.migracion)
 
 
 class Familia(models.Model):
@@ -72,6 +78,8 @@ class Familia(models.Model):
     class Meta:
         managed = False
         db_table = 'familia'
+    def __unicode__(self):
+        return "%s - %s -%s" % (self.id_familia, self.nombre_fam, self.dependencia_fam)
 
 
 class Foto(models.Model):
@@ -82,7 +90,8 @@ class Foto(models.Model):
     class Meta:
         managed = False
         db_table = 'foto'
-
+    def __unicode__(self):
+        return "%s - %s -%s" % (self.id_foto, self.especie, self.url)
 
 class Ubicacion(models.Model):
     id_ubicacion = models.AutoField(primary_key=True)
@@ -92,6 +101,8 @@ class Ubicacion(models.Model):
     class Meta:
         managed = False
         db_table = 'ubicacion'
+    def __unicode__(self):
+        return "%s - %s -%s" % (self.id_ubicacion, self.nombre_ub, self.dependencia_ub)
 
 
 class Uicn(models.Model):
@@ -102,3 +113,5 @@ class Uicn(models.Model):
     class Meta:
         managed = False
         db_table = 'uicn'
+    def __unicode__(self):
+        return "%s - %s -%s" % (self.id_uicn, self.estado, self.descripcion)

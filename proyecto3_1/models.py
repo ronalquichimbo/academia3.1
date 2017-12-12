@@ -102,3 +102,5 @@ class Uicn(models.Model):
     class Meta:
         managed = False
         db_table = 'uicn'
+    def __unicode__(self):
+        return "%s - %s -%s" % (self.id_uicn, self.estado, self.descripcion)

@@ -1,4 +1,3 @@
-create database aves owner academia;
 create schema avistamiento;
 alter user academia set search_path to avistamiento, public;
 
@@ -24,8 +23,8 @@ CREATE TABLE especie(
 	especie text,
 	nombre text,
 	sinonimo text,
-	uicn integer DEFAULT 7,
 	endemismo character varying(20),
+	uicn integer DEFAULT 0,
 	migracion character varying(20),
 	CONSTRAINT codigo_pkey PRIMARY KEY(id_especie),
 	CONSTRAINT estado_uicn_fkey FOREIGN KEY (uicn)
@@ -57,17 +56,17 @@ CREATE TABLE avistamiento(
 	id_ubicacion integer,
 	anio_recoleccion text,
 	anio_publicacion text,
-	ecosistema character varying(50),
-	comportamiento boolean ,
-	llamado boolean ,
-	ecologia boolean ,	
+	ecosistema character varying(150),
+	comportamiento character varying(20) ,
+	llamado character varying(20) ,
+	ecologia  character varying(20),	
 	id_autor integer,
 	tipo_recurso character varying(30),
-	morfometria boolean ,
+	morfometria character varying(70) ,
 	localidad text,
-	altitud integer,
-	latitud float(12),
-	longitud float(12),
+	altitud integer NULl,
+	latitud character  varying(50),
+	longitud character  varying(50),
 	min_altitud integer,
 	max_altitud integer,
 	sitio character  varying(50),
@@ -84,11 +83,20 @@ CREATE TABLE autor(
 	CONSTRAINT autor_pkey PRIMARY KEY(id_autor)
 );
 
-\COPY uicn(estado,descripcion) FROM '/home/mjmora5/academia3.1/datos/uicn.csv' DELIMITER ';' CSV HEADER;
+\COPY uicn(estado,descripcion) FROM '/root/Desktop/academia3.1/datos/uicn1.csv' DELIMITER ',' CSV HEADER;
 
-\COPY familia(nombre_fam,dependencia_fam) FROM '/home/mjmora5/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
+\COPY familia(nombre_fam,dependencia_fam) FROM '/root/Desktop/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
 
-\COPY autor(nombre_autor,bibliografia) FROM '/home/mjmora5/academia3.1/datos/autor.csv' DELIMITER ';' CSV HEADER;
+\COPY autor(nombre_autor,bibliografia) FROM '/root/Desktop/academia3.1/datos/autor.csv' DELIMITER ';' CSV HEADER;
 
-\COPY especie(codigo_especie,familia,especie,nombre,sinonimo,uicn,endemismo,migracion) FROM '/home/mjmora5/academia3.1/datos/especie.csv' DELIMITER ',' CSV HEADER;
+\COPY especie(codigo_especie,familia,especie,nombre,sinonimo,uicn,endemismo,migracion) FROM '/root/Desktop/academia3.1/datos/especie.csv' DELIMITER ',' CSV HEADER;
+
+
+\COPY foto (especie,url) FROM '/root/Desktop/academia3.1/datos/foto.csv' DELIMITER ',' CSV HEADER;
+
+
+\COPY ubicacion (nombre_ub,dependencia_ub ) FROM '/root/Desktop/academia3.1/datos/Ubicacion.csv' DELIMITER ',' CSV HEADER;
+
+\COPY avistamiento (id_especie ,id_ubicacion,anio_recoleccion,	anio_publicacion,ecosistema,comportamiento,llamado,ecologia,id_autor,tipo_recurso,morfometria,localidad,altitud,latitud,longitud,min_altitud,max_altitud,sitio  ) FROM '/root/Desktop/academia3.1/datos/avistamiento.csv' DELIMITER ',' CSV HEADER;
+
 
