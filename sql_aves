@@ -83,9 +83,15 @@ CREATE TABLE autor(
 	CONSTRAINT autor_pkey PRIMARY KEY(id_autor)
 );
 
+<<<<<<< HEAD
 \COPY uicn(estado,descripcion) FROM '/root/Desktop/academia3.1/datos/uicn1.csv' DELIMITER ',' CSV HEADER;
 
 \COPY familia(nombre_fam,dependencia_fam) FROM '/root/Desktop/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
+=======
+\COPY uicn(estado,descripcion) FROM 'root/academia3.1/datos/uicn.csv' DELIMITER ';' CSV HEADER;
+
+\COPY familia(nombre_fam,dependencia_fam) FROM '/root/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
+>>>>>>> cdef22887900f41bcb0865daa1ac18654678b552
 
 \COPY autor(nombre_autor,bibliografia) FROM '/root/Desktop/academia3.1/datos/autor.csv' DELIMITER ';' CSV HEADER;
 
