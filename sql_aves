@@ -21,12 +21,12 @@ CREATE TABLE especie(
 	id_especie SERIAL NOT NULL,
 	codigo_especie  character varying(15),
 	familia integer,
-	especie character varying(30),
-	nombre character varying(30),
-	sinonimo character  varying(30),
-	uicn integer,
-	endemismo character varying(10),
-	migracion character varying(10),
+	especie text,
+	nombre text,
+	sinonimo text,
+	uicn integer DEFAULT 7,
+	endemismo character varying(20),
+	migracion character varying(20),
 	CONSTRAINT codigo_pkey PRIMARY KEY(id_especie),
 	CONSTRAINT estado_uicn_fkey FOREIGN KEY (uicn)
 	      REFERENCES uicn (id_uicn),
@@ -89,4 +89,6 @@ CREATE TABLE autor(
 \COPY familia(nombre_fam,dependencia_fam) FROM '/root/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
 
 \COPY autor(nombre_autor,bibliografia) FROM '/home/mjmora5/academia3.1/datos/autor.csv' DELIMITER ';' CSV HEADER;
+
+\COPY especie(codigo_especie,familia,especie,nombre,sinonimo,uicn,endemismo,migracion) FROM '/home/mjmora5/academia3.1/datos/especie.csv' DELIMITER ',' CSV HEADER;
 
