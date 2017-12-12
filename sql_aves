@@ -84,9 +84,9 @@ CREATE TABLE autor(
 	CONSTRAINT autor_pkey PRIMARY KEY(id_autor)
 );
 
-\COPY uicn(estado,descripcion) FROM '/home/mjmora5/academia3.1/datos/uicn.csv' DELIMITER ';' CSV HEADER;
+\COPY uicn(estado,descripcion) FROM 'root/academia3.1/datos/uicn.csv' DELIMITER ';' CSV HEADER;
 
-\COPY familia(nombre_fam,dependencia_fam) FROM '/home/mjmora5/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
+\COPY familia(nombre_fam,dependencia_fam) FROM '/root/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
 
 \COPY autor(nombre_autor,bibliografia) FROM '/home/mjmora5/academia3.1/datos/autor.csv' DELIMITER ';' CSV HEADER;
 
