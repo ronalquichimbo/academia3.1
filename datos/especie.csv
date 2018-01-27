@@ -1,4 +1,4 @@
-CodigoEspecie,Familia,especie,nombre,sinonimo,uicn,endemismo,migracion
+codigo_especie,familia,especie,nombre,sinonimo,uicn,endemismo,migracion
 UTPL_A0001,30,Aburria aburri,Wattled Guan,null,7,null,null
 UTPL_A0002,37,Accipiter bicolor,Bicolored Hawk,null,1,null,null
 UTPL_A0004,37,Accipiter superciliosus,Tiny Hawk,null,1,null,null

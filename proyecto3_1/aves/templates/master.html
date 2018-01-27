@@ -1,0 +1,46 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="{%static 'css/estilos.css'%}">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<section>
+			<nav>
+				<a href="">Inicio</a>
+				<a href="">Galería</a>
+				<a href="">Avistamientos</a>
+				<a href="">Especies</a>
+			</nav>
+			
+			<section>
+				<div id="cont_img">
+					<img src="{{dir_imagen.url}}" id="img_encabezado">
+				</div>
+				<!--<picture>
+					<source src="{{dir_imagen.url}}" type="">
+				</picture>-->
+				{% block encabezado%}
+
+				{% endblock %}
+			
+			</section>	
+		</section>
+	</header>
+	<main>
+		<section>
+			{%block contenido%}	
+			{% endblock %}
+		</section>
+		
+	</main>
+	<footer>
+		
+	</footer>
+
+</body>
+</html>

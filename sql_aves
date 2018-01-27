@@ -84,21 +84,21 @@ CREATE TABLE autor(
 );
 
 <<<<<<< HEAD
-\COPY uicn(estado,descripcion) FROM '/root/Desktop/academia3.1/datos/uicn1.csv' DELIMITER ',' CSV HEADER;
+\COPY uicn(estado,descripcion) FROM '/home/mjmora/academia3.1/datos/uicn1.csv' DELIMITER ',' CSV HEADER;
 
-\COPY familia(nombre_fam,dependencia_fam) FROM '/root/Desktop/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
+\COPY familia(nombre_fam,dependencia_fam) FROM '/home/mjmora/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
 =======
-\COPY uicn(estado,descripcion) FROM 'root/academia3.1/datos/uicn.csv' DELIMITER ';' CSV HEADER;
+\COPY uicn(estado,descripcion) FROM '/home/mjmora/academia3.1/datos/uicn.csv' DELIMITER ';' CSV HEADER;
 
-\COPY familia(nombre_fam,dependencia_fam) FROM '/root/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
+\COPY familia(nombre_fam,dependencia_fam) FROM '/home/mjmora/academia3.1/datos/familia.csv' DELIMITER ',' CSV HEADER;
 >>>>>>> cdef22887900f41bcb0865daa1ac18654678b552
 
-\COPY autor(nombre_autor,bibliografia) FROM '/root/Desktop/academia3.1/datos/autor.csv' DELIMITER ';' CSV HEADER;
+\COPY autor(nombre_autor,bibliografia) FROM '/home/mjmora/academia3.1/datos/autor.csv' DELIMITER ';' CSV HEADER;
 
-\COPY especie(codigo_especie,familia,especie,nombre,sinonimo,uicn,endemismo,migracion) FROM '/root/Desktop/academia3.1/datos/especie.csv' DELIMITER ',' CSV HEADER;
+\COPY especie(codigo_especie,familia,especie,nombre,sinonimo,uicn,endemismo,migracion) FROM '//home/mjmora/academia3.1/datos/especie.csv' DELIMITER ',' CSV HEADER;
 
 
-\COPY foto (especie,url) FROM '/root/Desktop/academia3.1/datos/foto.csv' DELIMITER ',' CSV HEADER;
+\COPY foto (especie,url) FROM '/home/mjmora/academia3.1/datos/foto.csv' DELIMITER ',' CSV HEADER;
 
 
 \COPY ubicacion (nombre_ub,dependencia_ub ) FROM '/root/Desktop/academia3.1/datos/Ubicacion.csv' DELIMITER ',' CSV HEADER;
