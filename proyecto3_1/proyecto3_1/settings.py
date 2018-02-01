@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'aves',
-        'USER': 'academia3_1',
-        'PASSWORD': 'academia3_1',
+        'USER': 'academia',
+        'PASSWORD': 'mjmora5',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
@@ -105,4 +105,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS=(
+        os.path.join(BASE_DIR,'/aves/static/'),
+)
+
 TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
