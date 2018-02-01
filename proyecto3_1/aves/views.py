@@ -46,8 +46,20 @@ def index(request):
             autor3 = c
             autor3[1] = autor3[1] * 100 / total
 
+    esp=Especie.objects.all()
+    especies=""
+    for e in esp:
+        especies=especies+","+e.nombre
+    print(especies) 
 
-    autores = {'valores': valores, 'autor1': autor1, 'autor2': autor2, 'autor3': autor3, 'totalav': total,'autores':autores_count,'avistamiento': avistamiento,'especies':especie,'ubicaciones':avist }
+    fam=Familia.objects.all()
+    family=""
+    for f in fam:
+        family=family+","+f.nombre_fam
+    print(family)   
+    #parrafo={"especies":especies,"familias":family}
+
+    autores = {'familias':family,'valores': valores, 'autor1': autor1, 'autor2': autor2, 'autor3': autor3, 'totalav': total,'autores':autores_count,'avistamiento': avistamiento,'especies':especie,'ubicaciones':avist }
 
 
     return render(request, 'index.html',autores)
