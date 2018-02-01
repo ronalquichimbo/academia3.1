@@ -1,7 +1,69 @@
 {% extends "master.html" %}
+{% load static %}
+{% block estilos %}
+	<script src="{% static 'assets/amcharts/amcharts.js' %}" type="text/javascript"></script>	
+    <script src="{% static 'assets/amcharts/serial.js'%}" type="text/javascript"></script>
+    <script src="{% static 'assets/amcharts/themes/dark.js'%}" type="text/javascript"></script>
+   
+{% endblock %}
+
 
 {% block contenido %}
-<section>
-  <p>pasa</p>
+<section style="background-color:#505050;">
+		<div id="chartdiv" style="width: 500px; height: 600px;"></div>	
 </section>
+{% endblock %}
+
+
+{% block javascript %}
+<script>
+             AmCharts.makeChart("chartdiv", {
+                type: "serial",
+                theme: "dark",
+                dataProvider: [
+                	{%for a in avistamientos%}
+						//console.log({{a.0}});
+						{
+							"year":{{a.0}},
+								"av":{{a.1}},
+								"esp":{{a.2}}
+						},
+					{%endfor%}
+				],
+                categoryField: "year",
+                startDuration: 1,
+                rotate: true,
+
+                categoryAxis: {
+                    gridPosition: "start"
+                },
+                valueAxes: [{
+                    position: "top",
+                    title: "Avistamientos por año de recolección",
+                    minorGridEnabled: true
+                }],
+                graphs: [{
+                    type: "column",
+                    title: "Avistamientos",
+                    valueField: "av",
+                    fillAlphas:1,
+                    balloonText: "<span style='font-size:13px;'>[[title]] in [[category]]:<b>[[value]]</b></span>"
+                }, {
+                    type: "line",
+                    title: "Especies",
+                    valueField: "esp",
+                    lineThickness: 2,
+                    bullet: "round",
+                    balloonText: "<span style='font-size:13px;'>[[title]] in [[category]]:<b>[[value]]</b></span>"
+                }],
+                legend: {
+                    useGraphSettings: true
+                },
+
+                creditsPosition:"top-right"
+
+            });
+
+
+        </script>
 {% endblock %}

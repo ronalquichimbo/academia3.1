@@ -55,17 +55,78 @@ def index(request):
 def about(request):
     return render(request, 'about.html')
 
+#inicio vista autores
 def autores(request):
-    return render(request, 'autores.html')
+
+    autores=[]
+    cantidades=[]
+    top=[]
+    at=Autor.objects.all()
+    avist=Avistamiento.objects.all()
+    total=Avistamiento.objects.all().count()
+
+    for a in at:
+        cant=Avistamiento.objects.filter(id_autor=a.id_autor).count()
+        if(cant>500):
+            top.append([a.nombre_autor,cant])
+        
+        autores.append([a.nombre_autor,cant])
+        cantidades.append(cant)
+
+    autores= {'autores':autores,'top':top, 'totalav':total}
+    return render(request, 'autores.html',autores,
+        context_instance = RequestContext(request))
+#fin vista autores
 
 def anios(request):
-    return render(request, 'anios.html')
+    avistamientos = Avistamiento.objects.all()
+    lista=[]
+    for a in avistamientos:
+        lista.append(a.anio_recoleccion)
+    
+    listaA=list(set(lista))
+    avist=[]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    for l in listaA:
+        cant= Avistamiento.objects.filter(anio_recoleccion=l).count()
+        av_e= Avistamiento.objects.filter(anio_recoleccion=l)
+        es=[]
+        for e in av_e:
+            es.append(e.id_especie)
+
+        es=list(set(es))
+        if l=='null':
+            nulos=[str(l), cant, len(es)]
+        else:
+            avist.append([str(l), cant, len(es)])
+        
+
+    anios= {'avistamientos':avist}
+    return render(request, 'anios.html',anios,
+        context_instance = RequestContext(request))
+
+#incio aves
 def aves(request):
 
     ubicaciones = Avistamiento.objects.all()
+    #Provincias y avistamientos
+    provincias=[]
+    paises=[]
+    pr=Ubicacion.objects.all()
+    for p in pr:
+        cant=Avistamiento.objects.filter(id_ubicacion=p.id_ubicacion).count()
+        provincias.append([p.id_ubicacion,p.nombre_ub,p.dependencia_ub,cant])
 
+    paises.append(provincias[0])
+    del provincias[0]#elimino la primera posicion del arreglo Ecuador y lo agrego al la lista paises
+    paises.append(provincias[0])
+    del provincias[0]#elimino la nueva primera posicion del arreglo Peru y lo agrego al la lista paises
 
-    return render(request, 'Aves.html',{'ubicaciones':ubicaciones })
+    anios= {'provincias':provincias,'paises':paises,'ubicaciones':ubicaciones }
+
+    return render(request, 'Aves.html',anios, context_instance=RequestContext(request))
+#fin aves
+
+# inicio vista galeria de aves
 def galeria(request):
 
     obj = Foto.objects.all().distinct('especie_id')
@@ -87,7 +148,19 @@ def galeria(request):
 
 
 def uicn(request):
-    return render(request, 'uicn.html')
+    uicn_esp=[]
+    uicn=Uicn.objects.all()
+    colores=["#0D8ECF","#0D52D1","#8A0CCF","#CD0D74","#754DEB","#DDDDDD","#999999"]
+    i=0
+    for u in uicn:
+         esp=Especie.objects.filter(uicn=u.id_uicn).count()
+         uicn_esp.append([u.estado,esp,colores[i]])
+         i=i+1
+
+    anios= {'uicn':uicn_esp}
+    return render(request, 'uicn.html',anios,
+        context_instance = RequestContext(request))
+    
 def datoespecie(request,  id):
 	j = Foto.objects.filter(especie = id)
 

@@ -3,8 +3,16 @@
 
 {% block estilos %}
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
- <link rel="stylesheet" type="text/css" href="{% static 'assets/css/sequences.css' %}"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ 	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/sequences.css' %}"/>
+ <!--HMcharts-->
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/streamgraph.js"></script>
+	<script src="https://code.highcharts.com/modules/series-label.js"></script>
+	<script src="https://code.highcharts.com/modules/annotations.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<!--Circular-->
+	<script src="https://code.highcharts.com/modules/sunburst.js"></script>
 {% endblock %}
 
 {% block contenido %}
@@ -26,7 +34,7 @@
 		</div>
 
 		<article class="text-justify infor margin ">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>El mapa presenta todas las especies vistas en el país.</p>
 
 		</article>
 		</div>
@@ -37,8 +45,10 @@
 
 
 <section class="graficas">
-	<h3 class="text-center">Graficas</h3>
-
+	<!--<h3 class="text-center">Graficas</h3>-->
+	<section>
+		<div id="provincias"></div>
+	</section>
 
 </section>
 
@@ -84,4 +94,97 @@ var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions)
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+
+<!--GRAFICA AVES PROVINCIAS PAISES-->
+<script type="text/javascript">
+			var data = [
+			{
+			    'id': '0',
+			    'parent': '',
+			    'name': 'Ecuador & Perú'
+			},
+			{%for pa in paises%}
+				{
+					'id':'{{pa.0}}',
+					'parent':'0',
+					'name':'{{pa.1}}'
+				},
+			{%endfor%}
+			{%for p in provincias%}
+				{
+					'id':'{{p.0}}',
+					'parent':'{{p.2}}',
+					'name':'{{p.1}}',
+					'value':{{p.3}}
+				},
+			{%endfor%}
+			
+			];
+
+			// Splice in transparent for the center circle
+			Highcharts.getOptions().colors.splice(0, 7, 'transparent');
+
+
+			Highcharts.chart('provincias', {
+
+			    chart: {
+			        height: '100%'
+			    },
+
+			    title: {
+			        text: 'Aves vistas en Perú y Ecuador'
+			    },
+			    series: [{
+			        type: "sunburst",
+			        data: data,
+			        allowDrillToNode: true,
+			        cursor: 'pointer',
+			        dataLabels: {
+			            format: '{point.name}',
+			            filter: {
+			                property: 'innerArcLength',
+			                operator: '>',
+			                value: 16
+			            }
+			        },
+			        levels: [{
+			            level: 1,
+			            levelIsConstant: false,
+			            dataLabels: {
+			                rotationMode: 'parallel',
+			                filter: {
+			                    property: 'outerArcLength',
+			                    operator: '>',
+			                    value: 64
+			                }
+			            }
+			        }, {
+			            level: 2,
+			            colorByPoint: true,
+			            dataLabels: {
+			                rotationMode: 'parallel'
+			            }
+			        },
+			        {
+			            level: 3,
+			            colorVariation: {
+			                key: 'brightness',
+			                to: -0.5
+			            }
+			        }, {
+			            level: 4,
+			            colorVariation: {
+			                key: 'brightness',
+			                to: 0.5
+			            }
+			        }]
+
+			    }],
+			    tooltip: {
+			        headerFormat: "",
+			        pointFormat: 'Avistamientos de <b>{point.name}</b>: <b>{point.value}</b>'
+			    }
+			});
+		</script>
+	
 {% endblock %}

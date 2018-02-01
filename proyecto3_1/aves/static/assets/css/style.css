@@ -91,17 +91,91 @@ a span {
 .infor{
   padding: 20px 0 0 0;
 }
-.info{
 
-  width: 400px;
-  height: 500px;
-  float:  left;
-  padding: 10px;
-}
 .graficas{
   height: 1000px;
-  background-color: red;
+  background-color: #fefefe;
+  
 }
+
+/*aves*/
+.container{
+    color: #000000;
+}
+
+#provincias{
+    width       : 50%;
+    height      : 50%;
+    padding: 2em;
+    
+}
+
+tspan{
+    font-size   : 1.5em;
+}
+/*FIN AVES*/
+
+
+/*autores*/
+
+.graf_autores{
+    background: #DAF7A6;
+    height: 50%;
+
+
+}
+#chartaut {
+    width       : 100%;
+    height      : 500px;
+    font-size   : 11px;
+}   
+
+#seleccion_autores{
+    color: #000000;
+}
+/*fin autores*/
+
+/*uicn*/
+
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}   
+
+.info, .info_dere{
+    display: inline-block;
+}
+
+.info{
+
+  width: 40%;
+  height: 500px;
+  float:  left;
+  padding: 1.5em;
+}
+
+.l1,.l2{
+    display: inline-block;   
+
+}
+.l1{
+    width: 50%;
+    float:  left;
+}
+.l2{
+    width: 50%;
+    float: right;
+}
+
+/*columna derecha*/
+.info_dere{
+
+  width: 50%;
+  height: 500px;
+  float:  right;
+  padding: 1.5em;
+}
+/*fin uicn*/
 
 
 /*MOdificado por mi*/
@@ -233,6 +307,7 @@ p:last-child {
 }
 .text-center {
     text-align: center;
+    color: #2b3615;
 }
 ::-moz-selection {
     background-color: #24b662;
@@ -741,7 +816,7 @@ ul#menu.nav.navbar-nav{
 
 }
 .mapas{
-    background-color: #00b3e7;
+    background-color: #d8d8d8;
     position: relative;
     padding: 20px;
 }
@@ -761,12 +836,7 @@ ul#menu.nav.navbar-nav{
     height: 75%;
 }
 
-.graf{
-    background: #5fde1d;
-    height: 300px;
 
-
-}
 .graf1{
     background: #3a4d60;
     height: 300px;
