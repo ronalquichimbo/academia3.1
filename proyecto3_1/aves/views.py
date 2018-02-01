@@ -79,6 +79,24 @@ def autores(request):
 #fin vista autores
 
 def anios(request):
+    #autores
+    autores=[]
+    cantidades=[]
+    top=[]
+    at=Autor.objects.all()
+    avist=Avistamiento.objects.all()
+    total=Avistamiento.objects.all().count()
+
+    for a in at:
+        cant=Avistamiento.objects.filter(id_autor=a.id_autor).count()
+        if(cant>500):
+            top.append([a.nombre_autor,cant])
+        
+        autores.append([a.nombre_autor,cant])
+        cantidades.append(cant)
+
+
+    #anios
     avistamientos = Avistamiento.objects.all()
     lista=[]
     for a in avistamientos:
@@ -100,7 +118,7 @@ def anios(request):
             avist.append([str(l), cant, len(es)])
         
 
-    anios= {'avistamientos':avist}
+    anios= {'avistamientos':avist,'autores':autores,'top':top, 'totalav':total}
     return render(request, 'anios.html',anios,
         context_instance = RequestContext(request))
 

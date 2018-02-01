@@ -16,41 +16,10 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
   </article>
-  <section class="graf_autores">
-  	<div id="chartaut"></div>
-  </section>
+  
 </section>
 {% endblock %}
 
 {% block javascript %}
-<!--Amcharts Grafica autores y sus avistamientos-->
-	<script>
-		var chart = AmCharts.makeChart("chartaut", {
-		    "type": "pie",
-		    "theme": "light",
-		    "innerRadius": "40%",
-		    "gradientRatio": [-0.4, -0.4, -0.4, -0.4, -0.4, -0.4, 0, 0.1, 0.2, 0.1, 0, -0.2, -0.5],
-		    "dataProvider": [
-		    	{%for a in top%}
-				    {
-				        "autor": "{{a.0}}",
-				        "investigacion": {{a.1}}
-				    },
-		    	{% endfor%}
-		    ],
-		    "balloonText": "[[value]]",
-		    "valueField": "investigacion",
-		    "titleField": "autor",
-		    "balloon": {
-		        "drop": true,
-		        "adjustBorderColor": false,
-		        "color": "#FFFFFF",
-		        "fontSize": 16
-		    },
-		    "export": {
-		        "enabled": true
-		    }
-		});
-	</script>
-	
+
 {% endblock %}

@@ -4,13 +4,23 @@
 	<script src="{% static 'assets/amcharts/amcharts.js' %}" type="text/javascript"></script>	
     <script src="{% static 'assets/amcharts/serial.js'%}" type="text/javascript"></script>
     <script src="{% static 'assets/amcharts/themes/dark.js'%}" type="text/javascript"></script>
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/pie.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
    
 {% endblock %}
 
 
 {% block contenido %}
 <section style="background-color:#505050;">
+
 		<div id="chartdiv" style="width: 500px; height: 600px;"></div>	
+</section>
+<section class="graf_autores">
+    <h2 class="text-center">Autores</h2>
+    <div id="chartaut"></div>
 </section>
 {% endblock %}
 
@@ -66,4 +76,34 @@
 
 
         </script>
+        <!--Amcharts Grafica autores y sus avistamientos-->
+    <script>
+        var chart = AmCharts.makeChart("chartaut", {
+            "type": "pie",
+            "theme": "light",
+            "innerRadius": "40%",
+            "gradientRatio": [-0.4, -0.4, -0.4, -0.4, -0.4, -0.4, 0, 0.1, 0.2, 0.1, 0, -0.2, -0.5],
+            "dataProvider": [
+                {%for a in top%}
+                    {
+                        "autor": "{{a.0}}",
+                        "investigacion": {{a.1}}
+                    },
+                {% endfor%}
+            ],
+            "balloonText": "[[value]]",
+            "valueField": "investigacion",
+            "titleField": "autor",
+            "balloon": {
+                "drop": true,
+                "adjustBorderColor": false,
+                "color": "#FFFFFF",
+                "fontSize": 16
+            },
+            "export": {
+                "enabled": true
+            }
+        });
+    </script>
+    
 {% endblock %}
