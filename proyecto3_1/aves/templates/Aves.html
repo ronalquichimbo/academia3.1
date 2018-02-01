@@ -1,0 +1,87 @@
+{% extends "master.html" %}
+{% load static %}
+
+{% block estilos %}
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <link rel="stylesheet" type="text/css" href="{% static 'assets/css/sequences.css' %}"/>
+{% endblock %}
+
+{% block contenido %}
+<section id="mapas" class="mapas">
+	<h2 class="text-center">Especies</h2>
+	<div class="container ">
+			<div class="info">
+			<h3 class=".text-center">Seleccionar Especie</h3>
+			<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle " type="button" id="menu1" data-toggle="dropdown">Selecionar
+			<span class="caret"></span></button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                {% for foo in ubicaciones %}
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">{{ foo.id_especie.nombre }}</a></li>
+                {% endfor %}
+
+
+			</ul>
+		</div>
+
+		<article class="text-justify infor margin ">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		</article>
+		</div>
+
+		<section id="map-canvas"></section>
+	</div>
+</section>
+
+
+<section class="graficas">
+	<h3 class="text-center">Graficas</h3>
+
+
+</section>
+
+
+
+
+{% endblock %}
+
+{% block javascript %}
+
+
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script >
+function initialize() {
+var myLatlng = new google.maps.LatLng(-2.524406, -78.929772);
+var mapOptions = {
+	zoom: 7,
+	center: myLatlng
+}
+var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+{% for lugares in ubicaciones %}
+    {% if lugares %}
+            var marcador = new google.maps.LatLng({{lugares.latitud}}, {{lugares.longitud}});
+	console.info( marcador  );
+
+	var marker = new google.maps.Marker({
+			position: marcador,
+			map: map,
+			title: '{{lugares.anio_publicacion}'
+	});
+		google.maps.event.addListener(marker, 'click', function(){
+					var popup = new google.maps.InfoWindow();
+					var note = '{{lugares.comportamiento}}<br>'+'{{lugares.llamados}}'+'<h1>{{lugares.latitud}}</h1>';
+					popup.setContent(note);
+					popup.open(map, this);
+		})
+    {% endif %}
+
+{% endfor %}
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+{% endblock %}

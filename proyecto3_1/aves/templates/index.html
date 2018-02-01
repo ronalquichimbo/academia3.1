@@ -1,0 +1,285 @@
+{% extends "master.html" %}
+
+  {% block estilos %}
+
+<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/gauge.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+ <script>
+var gaugeChart = AmCharts.makeChart("chartdiv", {
+  "type": "gauge",
+  "theme": "light",
+  "axes": [{
+    "axisAlpha": 0,
+    "tickAlpha": 0,
+    "labelsEnabled": false,
+    "startValue": 0,
+    "endValue": 100,
+    "startAngle": 0,
+    "endAngle": 270,
+    "bands": [{ /*este es el radio y el color*/
+      "color": "#eee",
+      "startValue": 0,
+      "endValue": 100,
+      "radius": "100%",
+      "innerRadius": "85%"
+    }, {
+      "color": "#00b7a6",
+      "startValue": 0,
+      "endValue": {{ autor1.1 }}, /*aqui podemos el valor para que nos de el radio*/
+      "radius": "100%",
+      "innerRadius": "85%",
+      "balloonText": "{{ autor1.1 }}% = {{ valores.0 }} <br> Total: {{ totalav }}" /*aqui podemos el valor para que nos de el radio*/
+    }, {
+      "color": "#eee",
+      "startValue": 0,
+      "endValue": 100,
+      "radius": "80%",
+      "innerRadius": "65%"
+    }, {
+
+      "color": "red",
+      "startValue": 0,
+      "endValue": {{ autor2.1 }},
+      "radius": "80%",
+      "innerRadius": "65%",
+      "balloonText": "{{ autor2.1 }}% = {{ valores.1 }} <br> Total: {{ totalav }}"
+    }, {
+      "color": "#eee",
+      "startValue": 0,
+      "endValue": 100,
+      "radius": "60%",
+      "innerRadius": "45%"
+    }, {
+      "color": "#cc4748",
+      "startValue": 0,
+      "endValue": {{ autor3.1 }},
+      "radius": "60%",
+      "innerRadius": "45%",
+      "balloonText": "{{ autor3.1 }}% = {{ valores.2 }} <br> Total: {{ totalav }}"
+    }]
+  }],
+  "allLabels": [{
+    "text": "1.- {{ autor1.0 }} ",
+    "x": "49%",
+    "y": "5%",
+    "size": 15,
+    "bold": true,
+    "color": "#ffff",
+    "align": "right"
+  }, {
+    "text": "2.- {{ autor2.0 }}",
+    "x": "49%",
+    "y": "15%",
+    "size": 15,
+    "bold": true,
+    "color": "#fdd400",
+    "align": "right"
+  }, {
+    "text": "3.- {{ autor3.0 }}",
+    "x": "49%",
+    "y": "24%",
+    "size": 15,
+    "bold": true,
+    "color": "#cc4748",
+    "align": "right"
+  }],
+  "export": {
+    "enabled": true
+  }
+});
+</script>
+
+
+
+  {% endblock %}
+
+{% block contenido %}
+
+<section id="about" class="about">
+		<div class="container">
+				<div class="row">
+						<div class="main_about_area">
+								<div class="col-sm-6">
+										<div class="single_about_left">
+												<h2>Estudiantes & Investigadores</h2>
+												<p> Los estudiantes de la carrera de Ing en Sistemas  aportando a la presentacion de metadatos de aves realizados por investigaores de la UTPL.</p>
+
+												<a href="about" class="btn btn-primary">See More</a>
+
+										</div>
+								</div>
+								<div class="col-sm-6">
+										<div class="single_about_right">
+												<div class="single_about_img">
+														<img src="https://farm2.static.flickr.com/1689/25564876744_0a532d6779_b.jpg" alt="" />
+												</div>
+										</div>
+								</div>
+                        </div>
+
+				</div>
+		</div>
+</section>
+
+
+
+<section class="statistics-section section-space-padding bg-cover text-center " data-stellar-background-ratio="0.5">
+	<div class="counter">
+	 <div class="container ">
+			 <div class="row">
+					 <div class="col-md-3 col-sm-3 col-xs-12 ">
+							 <div class="employees">
+									 <p class="counter-count">{{autores}}</p>
+									 <p class="employee-p">Autores</p>
+							 </div>
+					 </div>
+
+					 <div class="col-md-3 col-sm-3 col-xs-12">
+							 <div class="customer">
+									 <p class="counter-count">{{avistamiento}}</p>
+									 <p class="customer-p">Avistamientos</p>
+							 </div>
+					 </div>
+
+					 <div class="col-md-3 col-sm-3 col-xs-12">
+							 <div class="design">
+									 <p class="counter-count">{{ especies }}</p>
+									 <p class="design-p">Especies</p>
+							 </div>
+					 </div>
+
+					 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							 <div class="order">
+									 <p class="counter-count">652</p>
+									 <p class="order-p">Orders</p>
+							 </div>
+					 </div>
+			 </div>
+     </div>
+    </div>
+</section>
+  <section id="features" class="feature">
+		<div class="row">
+
+				<div class=" col-xs-12  col-sm-6    graf3 ">
+
+
+                        <h3 class="text-center">Autores</h3>
+								<div id="chartdiv"></div>
+                                <article class="text-center">
+                                <p> Los 3 mayores autores que tienen mas avistamientos</p>
+                                 </article>
+								<a href="" class="btn btn-primary p-3 mb-2 bg-info text-white text-center">See More</a>
+
+
+
+
+				</div>
+				<div class=" col-xs-12  col-sm-6   graf">
+								<h3 class="text-center">Grafica 2</h3>
+								<h5 class="subtitle">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth.</h5>
+								<p class="">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally,
+										chambray blog crucifix put a bird on it four dollar toast cardigan
+										scenester aesthetic sartorial chia messenger bag Pinterest. </p>
+
+								<a href="" class="btn btn-primary ml-1 ">See More</a>
+
+				</div>
+				<div class=" col-xs-12  col-sm-6   graf1 ">
+
+								<h3 class="text-center">Grafica 1</h3>
+								<h5 class="subtitle">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth.</h5>
+								<p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally,
+										chambray blog crucifix put a bird on it four dollar toast cardigan
+										scenester aesthetic sartorial chia messenger bag Pinterest. </p>
+
+								<a href="" class="btn btn-primary">See More</a>
+
+			    </div>
+
+
+
+		</div>
+	</section>
+
+
+
+	<section id="mapas" class="mapas ">
+    <div class="row mapas">
+        <div class="col-xs-12 col-md-4">
+            <h2 class="text-center">Especies</h2>
+            <article class="text-justify  ">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		    </article>
+            <button><a href="">Ver mas</a></button>
+        </div>
+        <div class="col-xs-12 col-md-8 ">
+             <section id="map-canvas" ></section>
+        </div>
+
+
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+{% endblock %}
+
+
+
+{% block javascript %}
+
+<!-- Resources -->
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script >
+function initialize() {
+var myLatlng = new google.maps.LatLng(-2.524406, -78.929772);
+var mapOptions = {
+	zoom: 7,
+	center: myLatlng
+}
+var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+{% for lugares in ubicaciones %}
+    {% if lugares.latitud %}
+        var marcador = new google.maps.LatLng({{lugares.latitud}}, {{lugares.longitud}});
+	console.info( marcador  );
+
+	var marker = new google.maps.Marker({
+			position: marcador,
+			map: map,
+			title: '{{lugares.anio_publicacion}'
+	});
+		google.maps.event.addListener(marker, 'click', function(){
+					var popup = new google.maps.InfoWindow();
+					var note = '{{lugares.id_especie.nombre}}<br>'+'{{lugares.llamados}}'+'<h1>{{lugares.latitud}}</h1>';
+					popup.setContent(note);
+					popup.open(map, this);
+		})
+    {% endif %}
+
+{% endfor %}
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+{% endblock %}
